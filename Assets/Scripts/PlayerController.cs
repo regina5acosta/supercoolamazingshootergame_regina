@@ -4,7 +4,9 @@ using UnityEngine;
 public class PlayerController : MonoBehaviour
 {
     [Header("Movement")]
-    public float moveSpeed = 6f;
+    public float moveSpeed = 24f;
+    public float runSpeed = 48f;
+    private bool _isRunning = false;
     public float gravity = -20f;
 
     [Header("Mouse Look")]
@@ -46,6 +48,16 @@ public class PlayerController : MonoBehaviour
 
     void HandleMovement()
     {
+        if (Input.GetKey(KeyCode.LeftShift))
+        {
+            _isRunning = true;
+        }
+        else
+        {
+            _isRunning = false;
+        }
+        float speed = _isRunning ? runSpeed : moveSpeed;
+
         float x = Input.GetAxis("Horizontal");
         float z = Input.GetAxis("Vertical");
 
@@ -57,6 +69,6 @@ public class PlayerController : MonoBehaviour
         yVelocity += gravity * Time.deltaTime;
         move.y = yVelocity;
 
-        controller.Move(move * moveSpeed * Time.deltaTime);
+        controller.Move(move * speed * Time.deltaTime);
     }
 }
