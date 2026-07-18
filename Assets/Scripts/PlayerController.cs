@@ -6,8 +6,11 @@ public class PlayerController : MonoBehaviour
     [Header("Movement")]
     public float moveSpeed = 24f;
     public float runSpeed = 48f;
+    public float jumpForce = 6f;
     private bool _isRunning = false;
+    private bool _isGrounded = false;
     public float gravity = -20f;
+    private Rigidbody _rb;
 
     [Header("Mouse Look")]
     public float mouseSensitivity = 2f;
@@ -32,6 +35,7 @@ public class PlayerController : MonoBehaviour
 
         HandleMouseLook();
         HandleMovement();
+       // HandleJump();
     }
 
     void HandleMouseLook()
@@ -70,5 +74,13 @@ public class PlayerController : MonoBehaviour
         move.y = yVelocity;
 
         controller.Move(move * speed * Time.deltaTime);
+    }
+
+    void HandleJump()
+    {
+        if (Input.GetKeyDown(KeyCode.Space))
+        {
+            _rb.AddForce(Vector3.up * jumpForce, ForceMode.Impulse);
+        }
     }
 }
