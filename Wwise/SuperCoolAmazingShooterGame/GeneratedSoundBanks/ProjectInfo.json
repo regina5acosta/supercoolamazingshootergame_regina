@@ -1,0 +1,29 @@
+{
+ "ProjectInfo": {
+  "Project": {
+   "Name": "SuperCoolAmazingShooterGame",
+   "GUID": "{2771562D-3BA9-4B68-A54E-5B987331B9D5}",
+   "Generator": "2024.1.5.8803"
+  },
+  "CacheRoot": "../.cache",
+  "Platforms": [
+   {
+    "Name": "Windows",
+    "GUID": "{172B97C3-DABD-4C41-8E6B-BD8A4E91BF0A}",
+    "BasePlatform": "Windows",
+    "BasePlatformGUID": "{6E0CB257-C6C8-4C5C-8366-2740DFC441EB}",
+    "Path": "Windows"
+   }
+  ],
+  "Languages": [
+   {
+    "Name": "English(US)",
+    "Id": "684519430",
+    "GUID": "{6F7E325F-D0C0-4E22-A9E4-6FDEA2D1154B}",
+    "Default": "true",
+    "UseAsStandIn": "true"
+   }
+  ],
+  "FileHash": "{89010299-7AD0-7D74-4A5D-1F3C0256F05A}"
+ }
+}
