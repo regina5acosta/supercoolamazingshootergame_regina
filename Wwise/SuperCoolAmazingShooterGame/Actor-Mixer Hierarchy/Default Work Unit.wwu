@@ -38,6 +38,7 @@
 					</ChildrenList>
 				</RandomSequenceContainer>
 				<WorkUnit Name="SFX" ID="{C4459C7B-A698-47C0-87E4-B061CDACB151}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{23278824-0E50-4533-AA75-6F6AED879C26}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

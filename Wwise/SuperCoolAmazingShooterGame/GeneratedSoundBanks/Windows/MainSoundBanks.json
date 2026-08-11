@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{F01292B5-E06E-E8C5-6F34-61383F59BD35}",
+    "Hash": "{E6D5925C-E287-D7B2-CF2A-42F5429B8EFE}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -88,6 +88,14 @@
       "CachePath": "E0/{E090E47A-65F8-5C0C-0497-6ACB01BF534A}.wem"
      },
      {
+      "Id": "539211060",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Button_Press_V1 2.wav",
+      "CachePath": "E3/{E3371F90-4A8B-A3FE-E252-9E05E47362CC}.wem"
+     },
+     {
       "Id": "547816236",
       "Language": "SFX",
       "Streaming": "false",
@@ -128,12 +136,28 @@
       "CachePath": "DB/{DB176FA0-369B-AEF7-690E-25C0E1AF163B}.wem"
      },
      {
+      "Id": "651171057",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "UI_Button_Roll_V1.wav",
+      "CachePath": "CD/{CDB4FD81-11E0-6FAE-86B7-D1C36EADFBEF}.wem"
+     },
+     {
       "Id": "742831736",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 2.wav",
       "CachePath": "BF/{BFD8A221-B172-057F-FD9D-93EC31F1BBA5}.wem"
+     },
+     {
+      "Id": "779227348",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "archivo_de_nuestro_contacto_forhub_soundcloud_to_mp3.wav",
+      "CachePath": "BC/{BC88AF69-403B-1175-5B7B-9CE55F3C87F0}.wem"
      },
      {
       "Id": "779490118",
@@ -245,6 +269,19 @@
       ]
      },
      {
+      "Id": "667425441",
+      "Name": "Play_MainMenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mx\\Play_MainMenuMusic",
+      "GUID": "{E22B6453-5DA1-42BE-999F-2ECAC41D0152}",
+      "Color": "10",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "779227348"
+       }
+      ]
+     },
+     {
       "Id": "2585924577",
       "Name": "Play_MusicPlaylist",
       "ObjectPath": "\\Events\\Default Work Unit\\Mx\\Play_MusicPlaylist",
@@ -300,6 +337,36 @@
       ]
      },
      {
+      "Id": "281154517",
+      "Name": "Play_UIQuit",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UIQuit",
+      "GUID": "{0DA18899-E2AE-483A-BC05-40D31664E79F}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "1.372",
+      "DurationMax": "1.372",
+      "MediaRefs": [
+       {
+        "Id": "651171057"
+       }
+      ]
+     },
+     {
+      "Id": "3646906820",
+      "Name": "Play_UIStart",
+      "ObjectPath": "\\Events\\Default Work Unit\\UI\\Play_UIStart",
+      "GUID": "{0065C198-42F3-4011-97A2-D76D7857BE05}",
+      "Color": "2",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2133334",
+      "DurationMax": "1.2133334",
+      "MediaRefs": [
+       {
+        "Id": "539211060"
+       }
+      ]
+     },
+     {
       "Id": "104039902",
       "Name": "Play_WeaponFire",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_WeaponFire",
@@ -328,6 +395,17 @@
         "Id": "839487501"
        }
       ]
+     },
+     {
+      "Id": "1307794083",
+      "Name": "Stop_MainMenuMusic",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mx\\Stop_MainMenuMusic",
+      "GUID": "{27E2AA91-7170-4B69-9BA2-A1A24E7A0FC4}",
+      "Color": "10",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
      }
     ],
     "GameParameters": [
@@ -340,6 +418,6 @@
     ]
    }
   ],
-  "FileHash": "{29816BAA-2598-A6E8-9693-F6B0C83E682C}"
+  "FileHash": "{058EC8EC-5BEE-1185-50F8-26858A2C4A15}"
  }
 }

@@ -16,6 +16,7 @@
 				</Event>
 				<WorkUnit Name="SFX" ID="{2811CDCB-A737-4DDD-AD00-4D0CC29C959C}" PersistMode="Reference"/>
 				<WorkUnit Name="Mx" ID="{978EC7C1-4794-4924-804D-57B3BD0EEA8A}" PersistMode="Reference"/>
+				<WorkUnit Name="UI" ID="{306C62CC-1D60-4949-8499-DB0D1DE4374B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

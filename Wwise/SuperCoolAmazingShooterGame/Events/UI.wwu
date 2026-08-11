@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{306C62CC-1D60-4949-8499-DB0D1DE4374B}" SchemaVersion="123" RootDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" ParentDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}">
+	<Events>
+		<WorkUnit Name="UI" ID="{306C62CC-1D60-4949-8499-DB0D1DE4374B}" OwnerID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="2"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_UIQuit" ID="{0DA18899-E2AE-483A-BC05-40D31664E79F}">
+					<ChildrenList>
+						<Action Name="" ID="{84F85D7B-0504-44A7-86B0-360B45B0F720}" ShortID="444305779">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UIQuit" ID="{21945D71-7909-48CC-9AD2-75136E98BE9C}" WorkUnitID="{23278824-0E50-4533-AA75-6F6AED879C26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_UIStart" ID="{0065C198-42F3-4011-97A2-D76D7857BE05}">
+					<ChildrenList>
+						<Action Name="" ID="{05E6A55F-AFCA-40E0-82C1-F28042EC5D23}" ShortID="1029309262">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="UIStart" ID="{324A3057-4800-421A-BAB9-D140DC808224}" WorkUnitID="{23278824-0E50-4533-AA75-6F6AED879C26}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

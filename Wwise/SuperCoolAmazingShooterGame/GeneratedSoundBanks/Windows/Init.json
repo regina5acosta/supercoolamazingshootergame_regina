@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{C56F53E8-A096-58FA-0DC2-B7904A219C73}",
+    "Hash": "{19699AFB-CAC7-A5D8-9D0F-6D6676315115}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -49,6 +49,20 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX",
       "GUID": "{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}",
       "Color": "12"
+     },
+     {
+      "Id": "1551306167",
+      "Name": "UI",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\UI",
+      "GUID": "{0522ADBF-0681-497C-93AF-AA5780890ECA}",
+      "Color": "2"
+     },
+     {
+      "Id": "1685527054",
+      "Name": "Mx",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\Mx",
+      "GUID": "{0D8B2525-D997-4ABF-B7E1-838BBCDB940A}",
+      "Color": "10"
      },
      {
       "Id": "3803692087",
@@ -601,6 +615,6 @@
     ]
    }
   ],
-  "FileHash": "{BA3164AE-A403-BD81-1E7D-AE6F3B437FF5}"
+  "FileHash": "{DC598641-11D1-39ED-0168-E7E0E0E750B2}"
  }
 }

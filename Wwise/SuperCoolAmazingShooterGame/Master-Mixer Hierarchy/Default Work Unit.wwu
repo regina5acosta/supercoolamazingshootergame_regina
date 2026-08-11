@@ -20,6 +20,13 @@
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 						</Bus>
+						<Bus Name="UI" ID="{0522ADBF-0681-497C-93AF-AA5780890ECA}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="2"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
+						<Bus Name="Mx" ID="{0D8B2525-D997-4ABF-B7E1-838BBCDB940A}"/>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

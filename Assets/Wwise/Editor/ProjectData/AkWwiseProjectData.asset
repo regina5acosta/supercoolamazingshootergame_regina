@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 88b8a6a12a024b4eb2e4a1f843298983
     GuidInternal: 
-    m_lastTime: -8584151815151835946
+    m_lastTime: -8584151756195939485
     List:
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
@@ -319,6 +319,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus
+    - name: Mx
+      guid: 25258b0d97d9bf4ab7e1838bbcdb940a
+      id: 1685527054
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88b8a6a12a024b4eb2e4a1f843298983
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: Mx
+        ObjectType: 2
+        guid: 25258b0d97d9bf4ab7e1838bbcdb940a
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\Mx
     - name: SFX
       guid: 6177caffe61f7c468b8bd5a4020994be
       id: 393239870
@@ -336,6 +353,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: 6177caffe61f7c468b8bd5a4020994be
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX
+    - name: UI
+      guid: bfad220581067c4993afaa5780890eca
+      id: 1551306167
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88b8a6a12a024b4eb2e4a1f843298983
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: UI
+        ObjectType: 2
+        guid: bfad220581067c4993afaa5780890eca
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -389,7 +423,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584151796771491341
+    m_lastTime: -8584151754864098291
     List:
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
@@ -422,8 +456,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Mx
     guid: c1c78e9794472449804d57b3bd0eea8a
     GuidInternal: 
-    m_lastTime: -8584151810789662363
+    m_lastTime: -8584151754864140186
     List:
+    - name: Play_MainMenuMusic
+      guid: 53642be2a15dbe42999f2ecac41d0152
+      id: 667425441
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: Mx
+        ObjectType: 12
+        guid: c1c78e9794472449804d57b3bd0eea8a
+      - ElementName: Play_MainMenuMusic
+        ObjectType: 3
+        guid: 53642be2a15dbe42999f2ecac41d0152
+      Path: Events\Default Work Unit\Mx\Play_MainMenuMusic
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_MusicPlaylist
       guid: 54368448d95b114591c9c2a8f533070f
       id: 2585924577
@@ -441,6 +495,26 @@ MonoBehaviour:
         ObjectType: 3
         guid: 54368448d95b114591c9c2a8f533070f
       Path: Events\Default Work Unit\Mx\Play_MusicPlaylist
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Stop_MainMenuMusic
+      guid: 91aae2277071694b9ba2a1a24e7a0fc4
+      id: 1307794083
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: Mx
+        ObjectType: 12
+        guid: c1c78e9794472449804d57b3bd0eea8a
+      - ElementName: Stop_MainMenuMusic
+        ObjectType: 3
+        guid: 91aae2277071694b9ba2a1a24e7a0fc4
+      Path: Events\Default Work Unit\Mx\Stop_MainMenuMusic
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
@@ -540,6 +614,62 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 2.5735104
       minDuration: 1.7775834
+  - PhysicalPath: Events\UI.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 076ce8a30cfa5a44aaecd3e0005c7042
+    - ElementName: UI
+      ObjectType: 12
+      guid: cc626c30601d49498499db0d1de4374b
+    ParentPath: Events\Default Work Unit\UI
+    guid: cc626c30601d49498499db0d1de4374b
+    GuidInternal: 
+    m_lastTime: -8584151755967263144
+    List:
+    - name: Play_UIQuit
+      guid: 9988a10daee23a48bc0540d31664e79f
+      id: 281154517
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: UI
+        ObjectType: 12
+        guid: cc626c30601d49498499db0d1de4374b
+      - ElementName: Play_UIQuit
+        ObjectType: 3
+        guid: 9988a10daee23a48bc0540d31664e79f
+      Path: Events\Default Work Unit\UI\Play_UIQuit
+      maxAttenuation: 0
+      maxDuration: 1.372
+      minDuration: 1.372
+    - name: Play_UIStart
+      guid: 98c16500f342114097a2d76d7857be05
+      id: 3646906820
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: UI
+        ObjectType: 12
+        guid: cc626c30601d49498499db0d1de4374b
+      - ElementName: Play_UIStart
+        ObjectType: 3
+        guid: 98c16500f342114097a2d76d7857be05
+      Path: Events\Default Work Unit\UI\Play_UIStart
+      maxAttenuation: 0
+      maxDuration: 1.2133334
+      minDuration: 1.2133334
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -743,7 +873,7 @@ MonoBehaviour:
     m_lastTime: -8584172866519051780
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000c0000000d0000000e0000000f0000001a0000001b000000e1290100
+  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000100000001a0000001b000000e1290100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

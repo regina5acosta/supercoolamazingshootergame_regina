@@ -5,6 +5,8 @@
 			<ChildrenList>
 				<MusicPlaylistContainer Name="MusicPlaylist" ID="{A0E0A12E-D4B2-48E1-B215-E362A328646B}" ShortID="361597359">
 					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
 						<Property Name="Tempo" Type="Real64" Value="161"/>
 					</PropertyList>
 					<ReferenceList>
@@ -12,7 +14,7 @@
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+							<ObjectRef Name="Mx" ID="{0D8B2525-D997-4ABF-B7E1-838BBCDB940A}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
 						</Reference>
 						<Reference Name="PlaylistRoot">
 							<Custom>
@@ -120,7 +122,7 @@
 																</Reference>
 																<Reference>
 																	<Local>
-																		<MusicClip Name="NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip" ID="{69DDEDE6-58B1-4CD7-B8E0-DFD406057AA7}">
+																		<MusicClip Name="NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip_01" ID="{69DDEDE6-58B1-4CD7-B8E0-DFD406057AA7}">
 																			<PropertyList>
 																				<Property Name="EndTrimOffset" Type="Real64" Value="264000"/>
 																				<Property Name="FadeInMode" Type="int16" Value="0"/>
@@ -172,6 +174,145 @@
 												<PropertyList>
 													<Property Name="CueType" Type="int16" Value="2"/>
 													<Property Name="TimeMs" Type="Real64" Value="17888.198757764"/>
+												</PropertyList>
+											</MusicCue>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
+						</MusicSegment>
+					</ChildrenList>
+				</MusicPlaylistContainer>
+				<MusicPlaylistContainer Name="MainMenuMusic" ID="{AC51136F-F42E-48E0-A4D5-89455F5D6805}" ShortID="13360081">
+					<PropertyList>
+						<Property Name="Color" Type="int16" Value="9"/>
+						<Property Name="OverrideColor" Type="bool" Value="True"/>
+						<Property Name="Tempo" Type="Real64" Value="161"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+						</Reference>
+						<Reference Name="PlaylistRoot">
+							<Custom>
+								<MusicPlaylistItem Name="" ID="{589B5FCF-E275-4037-A5B6-FC474BC8A8B2}" ShortID="998111781">
+									<PropertyList>
+										<Property Name="LoopCount" Type="int16" Value="0"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicPlaylistItem Name="" ID="{8E291C2D-66BE-40C7-AE71-AC288C955298}" ShortID="303998258">
+											<PropertyList>
+												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Segment">
+													<ObjectRef Name="MainMenuMusic" ID="{5BC43C75-2EEA-41BB-BC15-20000EC587C0}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+												</Reference>
+											</ReferenceList>
+										</MusicPlaylistItem>
+									</ChildrenList>
+								</MusicPlaylistItem>
+							</Custom>
+						</Reference>
+						<Reference Name="TransitionRoot">
+							<Custom>
+								<MusicTransition Name="Root" ID="{9D71DF7F-C380-4C9E-8949-CD0A9C79F02D}">
+									<PropertyList>
+										<Property Name="IsFolder" Type="bool" Value="True"/>
+									</PropertyList>
+									<ChildrenList>
+										<MusicTransition Name="Transition" ID="{41EF9CED-61B0-409C-AE8F-15AD610C77E9}">
+											<TransitionInfo/>
+										</MusicTransition>
+									</ChildrenList>
+									<TransitionInfo/>
+								</MusicTransition>
+							</Custom>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<MusicSegment Name="MainMenuMusic" ID="{5BC43C75-2EEA-41BB-BC15-20000EC587C0}" ShortID="781639300">
+							<PropertyList>
+								<Property Name="EndPosition" Type="Real64" Value="177379.818594104"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<MusicTrack Name="archivo_de_nuestro_contacto_forhub_soundcloud_to_mp3" ID="{7F61F4D2-6E95-4A57-A092-C9BB863AE933}" ShortID="108281883">
+									<ReferenceList>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+										<Reference Name="TransitionRoot">
+											<Custom>
+												<MusicTransition Name="Root" ID="{9FC57308-2741-4D57-9E6E-4C87A91C0AE9}">
+													<PropertyList>
+														<Property Name="IsFolder" Type="bool" Value="True"/>
+													</PropertyList>
+													<TransitionInfo/>
+												</MusicTransition>
+											</Custom>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="archivo_de_nuestro_contacto_forhub_soundcloud_to_mp3" ID="{94E531E0-85F4-41B9-B335-9F03AD584921}">
+											<Language>SFX</Language>
+											<AudioFile>archivo_de_nuestro_contacto_forhub_soundcloud_to_mp3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="779227348"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ObjectLists>
+										<ObjectList Name="Sequences">
+											<Reference>
+												<Local>
+													<MusicTrackSequence Name="" ID="{4FEE35F7-940E-4732-8353-75ED53016B9E}">
+														<ObjectLists>
+															<ObjectList Name="Clips">
+																<Reference>
+																	<Local>
+																		<MusicClip Name="archivo_de_nuestro_contacto_forhub_soundcloud_to_mp3" ID="{13C5FB74-63E8-46E7-A79E-F70575684ADE}">
+																			<PropertyList>
+																				<Property Name="EndTrimOffset" Type="Real64" Value="177379.818594104"/>
+																				<Property Name="FadeInMode" Type="int16" Value="0"/>
+																				<Property Name="FadeOutMode" Type="int16" Value="0"/>
+																			</PropertyList>
+																			<AudioSourceRef Name="archivo_de_nuestro_contacto_forhub_soundcloud_to_mp3" ID="{94E531E0-85F4-41B9-B335-9F03AD584921}"/>
+																		</MusicClip>
+																	</Local>
+																</Reference>
+															</ObjectList>
+														</ObjectLists>
+													</MusicTrackSequence>
+												</Local>
+											</Reference>
+										</ObjectList>
+									</ObjectLists>
+								</MusicTrack>
+							</ChildrenList>
+							<ObjectLists>
+								<ObjectList Name="Cues">
+									<Reference>
+										<Local>
+											<MusicCue Name="Entry Cue" ID="{8DA96678-824B-4C12-A0A7-16B84BC8ED1A}"/>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<MusicCue Name="Exit Cue" ID="{551A1C04-2F79-4C35-B22B-63FF88DB9C6E}">
+												<PropertyList>
+													<Property Name="CueType" Type="int16" Value="1"/>
+													<Property Name="TimeMs" Type="Real64" Value="177379.818594104"/>
 												</PropertyList>
 											</MusicCue>
 										</Local>

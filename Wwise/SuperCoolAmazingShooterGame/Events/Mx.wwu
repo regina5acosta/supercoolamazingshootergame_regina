@@ -18,6 +18,31 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MainMenuMusic" ID="{E22B6453-5DA1-42BE-999F-2ECAC41D0152}">
+					<ChildrenList>
+						<Action Name="" ID="{F2E8BF01-50F3-4591-81CF-5EE502CE78F3}" ShortID="901660356">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuMusic" ID="{AC51136F-F42E-48E0-A4D5-89455F5D6805}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_MainMenuMusic" ID="{27E2AA91-7170-4B69-9BA2-A1A24E7A0FC4}">
+					<ChildrenList>
+						<Action Name="" ID="{2BC9C8EC-0DA0-49B6-B177-D33E3E3BD059}" ShortID="1038457237">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuMusic" ID="{AC51136F-F42E-48E0-A4D5-89455F5D6805}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
