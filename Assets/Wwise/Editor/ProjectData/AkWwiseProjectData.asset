@@ -423,7 +423,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584151733195359313
+    m_lastTime: -8584151720587842938
     List:
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
@@ -456,7 +456,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\GameStates
     guid: bcff13ddb486d84bbce8a68ccb04aa1d
     GuidInternal: 
-    m_lastTime: -8584151730708800323
+    m_lastTime: -8584151726106741382
     List:
     - name: EndScreen
       guid: d5139d6c02bbc242a413e5818effd2b6
@@ -588,7 +588,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: cbcd112837a7dd4dad004d0cc29c959c
     GuidInternal: 
-    m_lastTime: -8584151796771536397
+    m_lastTime: -8584151720587871652
     List:
     - name: Play_CollectiblePickup
       guid: 926e90649a1e954e8e979e3f0b101505
@@ -607,7 +607,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 926e90649a1e954e8e979e3f0b101505
       Path: Events\Default Work Unit\SFX\Play_CollectiblePickup
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 0.835875
       minDuration: 0.52054167
     - name: Play_GrenadeExplosion
@@ -627,7 +627,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 86b283c909e023428f5c03036f39efaf
       Path: Events\Default Work Unit\SFX\Play_GrenadeExplosion
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 2.3777397
       minDuration: 1.2487396
     - name: Play_TargetHit
@@ -650,6 +650,26 @@ MonoBehaviour:
       maxAttenuation: 40
       maxDuration: 1.9615417
       minDuration: 0.8205
+    - name: Play_TargetSpawn
+      guid: 22d8086731ae7e4f9155da43a5fe8f97
+      id: 4096896982
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: SFX
+        ObjectType: 12
+        guid: cbcd112837a7dd4dad004d0cc29c959c
+      - ElementName: Play_TargetSpawn
+        ObjectType: 3
+        guid: 22d8086731ae7e4f9155da43a5fe8f97
+      Path: Events\Default Work Unit\SFX\Play_TargetSpawn
+      maxAttenuation: 40
+      maxDuration: 0.82210416
+      minDuration: 0.24879166
     - name: Play_WeaponFire
       guid: 1ed23b08cd3ae744a2e920d343429d7e
       id: 104039902
@@ -667,7 +687,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 1ed23b08cd3ae744a2e920d343429d7e
       Path: Events\Default Work Unit\SFX\Play_WeaponFire
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 2.5735104
       minDuration: 1.7775834
   - PhysicalPath: Events\UI.wwu

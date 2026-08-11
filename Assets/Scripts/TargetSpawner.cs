@@ -16,6 +16,9 @@ public class TargetSpawner : MonoBehaviour
     public Collider spawnBounds;
     public float spawnHeight = 1.5f;
 
+    [Header("Wwise Stuff")]
+    [SerializeField] AK.Wwise.Event _targetSpawnEvent;
+
     void Update()
     {
         if (GameManager.Instance != null && !GameManager.Instance.IsGameActive) return;
@@ -40,5 +43,6 @@ public class TargetSpawner : MonoBehaviour
         );
 
         Instantiate(prefab, pos, Quaternion.identity);
+        _targetSpawnEvent.Post(gameObject);
     }
 }

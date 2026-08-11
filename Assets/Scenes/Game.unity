@@ -1391,6 +1391,10 @@ MonoBehaviour:
     nextSpawnTime: 0
   spawnBounds: {fileID: 2134820190}
   spawnHeight: 1.5
+  _targetSpawnEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fe121723b3d583d45ab9add1d97386a0, type: 2}
 --- !u!4 &691883446
 Transform:
   m_ObjectHideFlags: 0
@@ -2302,6 +2306,10 @@ MonoBehaviour:
     nextSpawnTime: 0
   spawnBounds: {fileID: 2134820190}
   spawnHeight: 1.5
+  _targetSpawnEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &1083290787
 Transform:
   m_ObjectHideFlags: 0

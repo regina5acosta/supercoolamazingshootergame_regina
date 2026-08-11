@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{56D3AFB5-6D40-08A0-31D9-88273EE72089}",
+    "Hash": "{06D27136-49CA-DD84-FDBA-F940826F83DD}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -30,6 +30,22 @@
       "Location": "Memory",
       "ShortName": "NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip.wav",
       "CachePath": "AF/{AF014C11-6D45-D9F2-E755-B1ECFA8B213F}.wem"
+     },
+     {
+      "Id": "109582929",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cartoon, Pop, Vanish SND11747 3.wav",
+      "CachePath": "B8/{B8CC6563-6E3A-BF64-FF0B-A06534C46C60}.wem"
+     },
+     {
+      "Id": "113716846",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cartoon, Pop, Vanish SND11747 2.wav",
+      "CachePath": "51/{51580BB3-8BAB-2A25-55DC-EF6DAB223185}.wem"
      },
      {
       "Id": "136617770",
@@ -70,6 +86,14 @@
       "Location": "Memory",
       "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290.wav",
       "CachePath": "9B/{9B936EE4-B491-0897-FD5D-C93C4C13D449}.wem"
+     },
+     {
+      "Id": "454248248",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cartoon, Pop, Vanish SND11747.wav",
+      "CachePath": "6E/{6EBD0289-AF7E-4A7A-1B0D-1886B6F6CF75}.wem"
      },
      {
       "Id": "476356069",
@@ -120,12 +144,28 @@
       "CachePath": "42/{429F6937-6210-DFB0-50C9-128C0B55EBA0}.wem"
      },
      {
+      "Id": "582015104",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cartoon, Pop, Vanish SND11747 1.wav",
+      "CachePath": "A6/{A6408CF1-851E-3D83-6D8E-20F2F5593E21}.wem"
+     },
+     {
       "Id": "604591142",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 3.wav",
       "CachePath": "F2/{F239B7F1-417C-2CFF-E748-E4E94BC63017}.wem"
+     },
+     {
+      "Id": "619879150",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cartoon, Pop, Vanish SND11747 5.wav",
+      "CachePath": "91/{91666F37-941D-A000-235E-0C4E679064EC}.wem"
      },
      {
       "Id": "640334736",
@@ -166,6 +206,14 @@
       "Location": "Memory",
       "ShortName": "Voices, Scream, Man Eaten By Alligator, Wilhelm Scream SND96097 1.wav",
       "CachePath": "6B/{6BDEF5CC-448B-3A3C-EA92-EDDFFE1CBABA}.wem"
+     },
+     {
+      "Id": "801544682",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Cartoon, Pop, Vanish SND11747 4.wav",
+      "CachePath": "C4/{C4DD615A-DBBD-9C6A-176B-E801B77C5285}.wem"
      },
      {
       "Id": "804660770",
@@ -234,6 +282,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_CollectiblePickup",
       "GUID": "{64906E92-1E9A-4E95-8E97-9E3F0B101505}",
       "Color": "12",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.52054167",
       "DurationMax": "0.835875",
@@ -261,6 +310,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_GrenadeExplosion",
       "GUID": "{C983B286-E009-4223-8F5C-03036F39EFAF}",
       "Color": "12",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "1.2487396",
       "DurationMax": "2.3777397",
@@ -334,6 +384,37 @@
       ]
      },
      {
+      "Id": "4096896982",
+      "Name": "Play_TargetSpawn",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_TargetSpawn",
+      "GUID": "{6708D822-AE31-4F7E-9155-DA43A5FE8F97}",
+      "Color": "12",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "0.24879166",
+      "DurationMax": "0.82210416",
+      "MediaRefs": [
+       {
+        "Id": "109582929"
+       },
+       {
+        "Id": "113716846"
+       },
+       {
+        "Id": "454248248"
+       },
+       {
+        "Id": "582015104"
+       },
+       {
+        "Id": "619879150"
+       },
+       {
+        "Id": "801544682"
+       }
+      ]
+     },
+     {
       "Id": "3534139762",
       "Name": "Play_TestTone",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_TestTone",
@@ -383,6 +464,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_WeaponFire",
       "GUID": "{083BD21E-3ACD-44E7-A2E9-20D343429D7E}",
       "Color": "12",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "1.7775834",
       "DurationMax": "2.5735104",
@@ -440,6 +522,6 @@
     ]
    }
   ],
-  "FileHash": "{F72FFE86-4F83-3F54-F939-89D26F5D01F0}"
+  "FileHash": "{A44B4450-F4A1-E685-2A97-216B225E289E}"
  }
 }

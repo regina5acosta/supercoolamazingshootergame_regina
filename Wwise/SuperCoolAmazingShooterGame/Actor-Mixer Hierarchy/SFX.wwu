@@ -8,12 +8,101 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="SFX" ID="{6E590888-1111-428C-9966-443831014D46}" ShortID="791988806">
+					<PropertyList>
+						<Property Name="3DSpatialization" Type="int16" Value="2"/>
+					</PropertyList>
 					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{BBE52DDE-D74D-4CA3-A299-B45F94466039}" ShortID="686374448">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="40"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{F2A58076-390F-43D1-B62F-5AB90B038D96}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>40</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+										<ObstructionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionVolumeUsage>
+										<ObstructionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionLPFUsage>
+										<ObstructionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</ObstructionHPFUsage>
+										<OcclusionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionVolumeUsage>
+										<OcclusionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionLPFUsage>
+										<OcclusionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</OcclusionHPFUsage>
+										<DiffractionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionVolumeUsage>
+										<DiffractionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionLPFUsage>
+										<DiffractionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</DiffractionHPFUsage>
+										<TransmissionVolumeUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionVolumeUsage>
+										<TransmissionLPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionLPFUsage>
+										<TransmissionHPFUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseProject"/>
+										</TransmissionHPFUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+							<ObjectRef Name="SFX" ID="{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
@@ -639,6 +728,153 @@
 									</ChildrenList>
 									<ActiveSourceList>
 										<ActiveSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 4" ID="{9028A5CF-5B20-4971-9D87-ED42F38A149F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="TargetSpawn" ID="{B783E8B2-3E33-44AF-AA04-946AE7C1B372}" ShortID="147819659">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Cartoon, Pop, Vanish SND11747" ID="{B0A43E6E-B7FA-4151-A6C3-44946D319D3A}" ShortID="613552818">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartoon, Pop, Vanish SND11747" ID="{BCB0FC8E-8274-456B-A467-2C74825EAF39}">
+											<Language>SFX</Language>
+											<AudioFile>Cartoon, Pop, Vanish SND11747.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="454248248"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartoon, Pop, Vanish SND11747" ID="{BCB0FC8E-8274-456B-A467-2C74825EAF39}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cartoon, Pop, Vanish SND11747 1" ID="{77EDDE85-5FCC-41B3-BDCF-B7EB29749F90}" ShortID="889377839">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartoon, Pop, Vanish SND11747 1" ID="{15B7AB0A-49D5-4236-87CD-76E9EEEE22A7}">
+											<Language>SFX</Language>
+											<AudioFile>Cartoon, Pop, Vanish SND11747 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="582015104"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartoon, Pop, Vanish SND11747 1" ID="{15B7AB0A-49D5-4236-87CD-76E9EEEE22A7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cartoon, Pop, Vanish SND11747 2" ID="{7D4A09D8-3D05-43FE-853D-FC23B81E65F1}" ShortID="522088524">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartoon, Pop, Vanish SND11747 2" ID="{5424E414-EFAE-4598-8F8E-6BA353314A9D}">
+											<Language>SFX</Language>
+											<AudioFile>Cartoon, Pop, Vanish SND11747 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="113716846"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartoon, Pop, Vanish SND11747 2" ID="{5424E414-EFAE-4598-8F8E-6BA353314A9D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cartoon, Pop, Vanish SND11747 3" ID="{A8312035-46F4-4B89-9897-C71A4AE4EA6C}" ShortID="560966224">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartoon, Pop, Vanish SND11747 3" ID="{29192B76-F5D0-445B-9ECF-2BFEC227E14E}">
+											<Language>SFX</Language>
+											<AudioFile>Cartoon, Pop, Vanish SND11747 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="109582929"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartoon, Pop, Vanish SND11747 3" ID="{29192B76-F5D0-445B-9ECF-2BFEC227E14E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cartoon, Pop, Vanish SND11747 4" ID="{1B2DB7B4-4DF6-4A09-8531-32EA5B0B2F01}" ShortID="28633814">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartoon, Pop, Vanish SND11747 4" ID="{98F4F759-D8DC-4DE4-B951-AF78265B6891}">
+											<Language>SFX</Language>
+											<AudioFile>Cartoon, Pop, Vanish SND11747 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="801544682"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartoon, Pop, Vanish SND11747 4" ID="{98F4F759-D8DC-4DE4-B951-AF78265B6891}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Cartoon, Pop, Vanish SND11747 5" ID="{161AAE37-BAE1-4AD2-AEC3-F80F2F29B828}" ShortID="331056774">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Cartoon, Pop, Vanish SND11747 5" ID="{AEFA701E-81DF-4E87-B047-25C9A2B12AC3}">
+											<Language>SFX</Language>
+											<AudioFile>Cartoon, Pop, Vanish SND11747 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="619879150"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Cartoon, Pop, Vanish SND11747 5" ID="{AEFA701E-81DF-4E87-B047-25C9A2B12AC3}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
 							</ChildrenList>
