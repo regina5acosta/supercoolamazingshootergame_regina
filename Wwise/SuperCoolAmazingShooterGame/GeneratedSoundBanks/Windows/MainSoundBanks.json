@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{06D27136-49CA-DD84-FDBA-F940826F83DD}",
+    "Hash": "{36DA6D90-04F8-E863-5978-681858E7CCA5}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -22,6 +22,14 @@
       "Location": "Memory",
       "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3.wav",
       "CachePath": "8F/{8F979A6A-5418-D281-DD56-71737493ECC1}.wem"
+     },
+     {
+      "Id": "78881303",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience, Insect, Cicadas, Intense, Sunset SND123210.wav",
+      "CachePath": "91/{91AEF04A-76BC-A54F-8FAD-368F1F2C5495}.wem"
      },
      {
       "Id": "89622345",
@@ -54,6 +62,14 @@
       "Location": "Memory",
       "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459 3.wav",
       "CachePath": "B7/{B74E0376-1912-E34A-F8CC-3E2D165ECC44}.wem"
+     },
+     {
+      "Id": "195143983",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "DSGNErie_Eerie Bell Ethereal Ambience_SD96 Arisa_VFST6A.wav",
+      "CachePath": "F8/{F8D8C970-8DAA-BAC8-0AC9-03DBCD931E85}.wem"
      },
      {
       "Id": "284757120",
@@ -150,6 +166,14 @@
       "Location": "Memory",
       "ShortName": "Cartoon, Pop, Vanish SND11747 1.wav",
       "CachePath": "A6/{A6408CF1-851E-3D83-6D8E-20F2F5593E21}.wem"
+     },
+     {
+      "Id": "598061137",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Ambience, Insect, Crickets Ambience, Night, Meadow 03 SND79738.wav",
+      "CachePath": "0B/{0BEE96B5-D275-FCB5-CD13-CAAEC1AF5C5C}.wem"
      },
      {
       "Id": "604591142",
@@ -305,6 +329,22 @@
       ]
      },
      {
+      "Id": "667798577",
+      "Name": "Play_DayBed",
+      "ObjectPath": "\\Events\\Default Work Unit\\BGs\\Play_DayBed",
+      "GUID": "{1791A51B-4827-48E2-A9FA-9AA99A9D92DB}",
+      "Color": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "78881303"
+       },
+       {
+        "Id": "195143983"
+       }
+      ]
+     },
+     {
       "Id": "3020009473",
       "Name": "Play_GrenadeExplosion",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_GrenadeExplosion",
@@ -352,6 +392,19 @@
       "MediaRefs": [
        {
         "Id": "89622345"
+       }
+      ]
+     },
+     {
+      "Id": "257059477",
+      "Name": "Play_NightBed",
+      "ObjectPath": "\\Events\\Default Work Unit\\BGs\\Play_NightBed",
+      "GUID": "{3A75704F-F090-4848-9C4D-7BFC36460115}",
+      "Color": "4",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "598061137"
        }
       ]
      },
@@ -522,6 +575,6 @@
     ]
    }
   ],
-  "FileHash": "{A44B4450-F4A1-E685-2A97-216B225E289E}"
+  "FileHash": "{68A5CAD0-D6E9-D2EA-14F2-E15D4970E2B6}"
  }
 }

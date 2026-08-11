@@ -27,6 +27,17 @@
 							</PropertyList>
 						</Bus>
 						<Bus Name="Mx" ID="{0D8B2525-D997-4ABF-B7E1-838BBCDB940A}"/>
+						<Bus Name="BGs" ID="{B0A90BB3-C609-4693-B216-D1D578586D9E}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Color" Type="int16" Value="4"/>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
+						</Bus>
 					</ChildrenList>
 				</Bus>
 			</ChildrenList>

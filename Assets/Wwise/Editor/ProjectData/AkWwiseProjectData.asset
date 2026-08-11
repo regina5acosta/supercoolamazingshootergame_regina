@@ -303,8 +303,25 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 88b8a6a12a024b4eb2e4a1f843298983
     GuidInternal: 
-    m_lastTime: -8584151756195939485
+    m_lastTime: -8584151707458783700
     List:
+    - name: BGs
+      guid: b30ba9b009c69346b216d1d578586d9e
+      id: 412724371
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88b8a6a12a024b4eb2e4a1f843298983
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: BGs
+        ObjectType: 2
+        guid: b30ba9b009c69346b216d1d578586d9e
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\BGs
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -412,6 +429,62 @@ MonoBehaviour:
         guid: 7b852e89d403694489d3ffee1359fe76
       Path: SoundBanks\Main\MainSoundBanks
   EventWwu:
+  - PhysicalPath: Events\BGs.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 076ce8a30cfa5a44aaecd3e0005c7042
+    - ElementName: BGs
+      ObjectType: 12
+      guid: d1242cbc3480e24b818769e5dd029538
+    ParentPath: Events\Default Work Unit\BGs
+    guid: d1242cbc3480e24b818769e5dd029538
+    GuidInternal: 
+    m_lastTime: -8584151708788532102
+    List:
+    - name: Play_DayBed
+      guid: 1ba591172748e248a9fa9aa99a9d92db
+      id: 667798577
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: BGs
+        ObjectType: 12
+        guid: d1242cbc3480e24b818769e5dd029538
+      - ElementName: Play_DayBed
+        ObjectType: 3
+        guid: 1ba591172748e248a9fa9aa99a9d92db
+      Path: Events\Default Work Unit\BGs\Play_DayBed
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Play_NightBed
+      guid: 4f70753a90f048489c4d7bfc36460115
+      id: 257059477
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: BGs
+        ObjectType: 12
+        guid: d1242cbc3480e24b818769e5dd029538
+      - ElementName: Play_NightBed
+        ObjectType: 3
+        guid: 4f70753a90f048489c4d7bfc36460115
+      Path: Events\Default Work Unit\BGs\Play_NightBed
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
     - ElementName: Events
@@ -423,7 +496,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584151720587842938
+    m_lastTime: -8584151708788577302
     List:
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
@@ -949,7 +1022,7 @@ MonoBehaviour:
     m_lastTime: -8584172866519051780
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000100000001a0000001b000000ac000000ad000000ae000000e1290100
+  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e0000000f00000010000000120000001a0000001b000000ac000000ad000000ae000000e1290100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

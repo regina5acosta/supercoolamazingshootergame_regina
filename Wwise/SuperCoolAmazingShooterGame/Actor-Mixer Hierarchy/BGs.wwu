@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{D33BD22D-A487-4D88-ADBF-230EDF6A33CC}" SchemaVersion="123" RootDocumentID="{7AA26EA5-2061-44FA-A9E6-BC24C6321051}" ParentDocumentID="{7AA26EA5-2061-44FA-A9E6-BC24C6321051}">
+	<AudioObjects>
+		<WorkUnit Name="BGs" ID="{D33BD22D-A487-4D88-ADBF-230EDF6A33CC}" OwnerID="{7AA26EA5-2061-44FA-A9E6-BC24C6321051}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="4"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="BGs" ID="{59397352-C58A-46EA-A588-5FEDC37EC058}" ShortID="953041060">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="BGs" ID="{B0A90BB3-C609-4693-B216-D1D578586D9E}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="DayBed" ID="{CF9E6A4E-5006-4B0C-927B-501D78162A78}" ShortID="452793653">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="DSGNErie_Eerie Bell Ethereal Ambience_SD96 Arisa_VFST6A" ID="{CDD59191-7119-4905-9E35-97513B8CFEB4}" ShortID="256608267">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-11</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="DSGNErie_Eerie Bell Ethereal Ambience_SD96 Arisa_VFST6A" ID="{C6FFBE18-F03F-4CDE-944C-94E6C40BA997}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="2694.547"/>
+												<Property Name="LoopBegin" Type="Real64" Value="4.458808309074"/>
+												<Property Name="LoopEnd" Type="Real64" Value="44.9159377822006"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.786848525130723"/>
+												<Property Name="TrimEnd" Type="Real64" Value="47.8010490410132"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>DSGNErie_Eerie Bell Ethereal Ambience_SD96 Arisa_VFST6A.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="195143983"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="DSGNErie_Eerie Bell Ethereal Ambience_SD96 Arisa_VFST6A" ID="{C6FFBE18-F03F-4CDE-944C-94E6C40BA997}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Ambience, Insect, Cicadas, Intense, Sunset SND123210" ID="{DD27510C-1E29-43B2-B66F-AAB56282D61E}" ShortID="341321204">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Insect, Cicadas, Intense, Sunset SND123210" ID="{11FB1061-4946-48F9-B298-07D91CE2FE6B}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="3027.065"/>
+												<Property Name="LoopBegin" Type="Real64" Value="5.95996023161179"/>
+												<Property Name="LoopEnd" Type="Real64" Value="43.2599362055751"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="3.14739472905342"/>
+												<Property Name="TrimEnd" Type="Real64" Value="47.2109210782166"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Insect, Cicadas, Intense, Sunset SND123210.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="78881303"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Insect, Cicadas, Intense, Sunset SND123210" ID="{11FB1061-4946-48F9-B298-07D91CE2FE6B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="NightBed" ID="{84078CFF-598C-4120-854C-EE0404E44331}" ShortID="252582531">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ambience, Insect, Crickets Ambience, Night, Meadow 03 SND79738" ID="{00790EAE-24E4-489A-B519-2DAAB232EA76}" ShortID="854662373">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ambience, Insect, Crickets Ambience, Night, Meadow 03 SND79738" ID="{7138A3F2-16E8-4309-A7AB-51123E9B4B4D}">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="4031.095"/>
+												<Property Name="LoopBegin" Type="Real64" Value="2.94285241188659"/>
+												<Property Name="LoopEnd" Type="Real64" Value="51.4298480320533"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>Ambience, Insect, Crickets Ambience, Night, Meadow 03 SND79738.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="598061137"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ambience, Insect, Crickets Ambience, Night, Meadow 03 SND79738" ID="{7138A3F2-16E8-4309-A7AB-51123E9B4B4D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

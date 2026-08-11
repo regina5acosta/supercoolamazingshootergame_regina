@@ -3527,10 +3527,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e791b4285eced384cbc54b0d0ab5e140, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  musicEvent:
+  _musicEvent:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: a13cc80de1958ed4a933cc5ab55dc905, type: 2}
+  _ambienceDayEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: fea96f3b8424ae44bba27e99ba7f6ed4, type: 2}
+  _ambienceNightEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 09ec64da0dce9ad40bb91004267e56ad, type: 2}
   beatLight: {fileID: 1442196098}
   pulseIntesity: 140
   fadeSpeed: 8
@@ -3630,7 +3638,7 @@ MonoBehaviour:
   data:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 9e224a4628c13b445a70ef0300e9dc0c, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: e5ed381682673da4181d874052bbf4d9, type: 2}
   decodeBank: 0
   overrideLoadSetting: 0
   loadAsynchronous: 0

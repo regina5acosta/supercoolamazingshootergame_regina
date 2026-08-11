@@ -18,6 +18,7 @@
 				<WorkUnit Name="Mx" ID="{978EC7C1-4794-4924-804D-57B3BD0EEA8A}" PersistMode="Reference"/>
 				<WorkUnit Name="UI" ID="{306C62CC-1D60-4949-8499-DB0D1DE4374B}" PersistMode="Reference"/>
 				<WorkUnit Name="GameStates" ID="{DD13FFBC-86B4-4BD8-BCE8-A68CCB04AA1D}" PersistMode="Reference"/>
+				<WorkUnit Name="BGs" ID="{BC2C24D1-8034-4BE2-8187-69E5DD029538}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

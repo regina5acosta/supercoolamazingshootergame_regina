@@ -4,7 +4,9 @@ using System.Collections.Generic;
 
 public class MusicCallbacks : MonoBehaviour
 {
-    public AK.Wwise.Event musicEvent;
+    public AK.Wwise.Event _musicEvent;
+    public AK.Wwise.Event _ambienceDayEvent;
+    public AK.Wwise.Event _ambienceNightEvent;
 
     public Light beatLight;
 
@@ -23,7 +25,7 @@ public class MusicCallbacks : MonoBehaviour
     private void Start()
     {
 
-        musicEvent.Post(gameObject, 
+        _musicEvent.Post(gameObject, 
             (uint)(AkCallbackType.AK_MusicSyncBeat | AkCallbackType.AK_MusicSyncUserCue), 
             OnMusicCallback
             );
@@ -46,6 +48,7 @@ public class MusicCallbacks : MonoBehaviour
                     colorTarget = Color.red;
                     RenderSettings.skybox = nightSkybox;
                     DynamicGI.UpdateEnvironment();
+                    _ambienceNightEvent.Post(gameObject);
                     break;
                 case "change_color_green":
                     colorTarget = Color.green;
@@ -54,6 +57,7 @@ public class MusicCallbacks : MonoBehaviour
                     colorTarget = Color.white;
                     RenderSettings.skybox = daySkybox;
                     DynamicGI.UpdateEnvironment();
+                    _ambienceDayEvent.Post(gameObject);
                     break;
             }
         }
