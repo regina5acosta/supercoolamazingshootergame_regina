@@ -96,7 +96,8 @@ public class WeaponSystem : MonoBehaviour
                 FireGrenade();
                 break;
         }
-        SoundManager.Instance.PlayerFire(gameObject);
+        _genericFireEvent.Post(gameObject);
+
     }
 
     void FirePaintball()

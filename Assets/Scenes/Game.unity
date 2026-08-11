@@ -411,7 +411,7 @@ MonoBehaviour:
   _genericFireEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: 2faf6c9c08fbb3147b470dc66a9d9319, type: 2}
 --- !u!114 &142604432
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -2581,7 +2581,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 313150388931175380, guid: efd8b20fa61ed8142ada6e6cdc5817a5, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0
+      value: -0.34
       objectReference: {fileID: 0}
     - target: {fileID: 313150388931175380, guid: efd8b20fa61ed8142ada6e6cdc5817a5, type: 3}
       propertyPath: m_LocalPosition.y
@@ -2944,8 +2944,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6626ba16fce1b35439912e1b853e5e57, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreValue: 10
-  lifetime: 8
+  scoreValue: 400
+  lifetime: 100
   shootInterval: 2
   projectilePrefab: {fileID: 1955116497652083709, guid: efd8b20fa61ed8142ada6e6cdc5817a5, type: 3}
   projectileSpeed: 60

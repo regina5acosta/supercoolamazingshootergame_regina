@@ -25,6 +25,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="SFX" ID="{2811CDCB-A737-4DDD-AD00-4D0CC29C959C}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

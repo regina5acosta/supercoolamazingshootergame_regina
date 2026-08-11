@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{C4459C7B-A698-47C0-87E4-B061CDACB151}" SchemaVersion="123" RootDocumentID="{7AA26EA5-2061-44FA-A9E6-BC24C6321051}" ParentDocumentID="{7AA26EA5-2061-44FA-A9E6-BC24C6321051}">
+	<AudioObjects>
+		<WorkUnit Name="SFX" ID="{C4459C7B-A698-47C0-87E4-B061CDACB151}" OwnerID="{7AA26EA5-2061-44FA-A9E6-BC24C6321051}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<ActorMixer Name="SFX" ID="{6E590888-1111-428C-9966-443831014D46}" ShortID="791988806">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<RandomSequenceContainer Name="WeaponFire" ID="{FFF8D148-C145-442B-990B-C0B545F0FDBB}" ShortID="655848708">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452" ID="{A1112CD5-3367-415A-9A8F-E70C35EB2E89}" ShortID="464737215">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452" ID="{0509ED32-12DC-4973-ACCE-0629E9BFB9DE}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="284757120"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452" ID="{0509ED32-12DC-4973-ACCE-0629E9BFB9DE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 1" ID="{02B14E9A-968E-4145-A3DC-76B4869D4665}" ShortID="311167552">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 1" ID="{DFFC1ACA-D83A-488B-B583-29CF0960DBB7}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="839487501"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 1" ID="{DFFC1ACA-D83A-488B-B583-29CF0960DBB7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 2" ID="{C0EA2942-7720-45D6-A2EE-CE24B50659ED}" ShortID="944514712">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 2" ID="{44F67C34-9D7C-47B5-BFDD-ECBBCDFA342E}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="556684514"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 2" ID="{44F67C34-9D7C-47B5-BFDD-ECBBCDFA342E}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3" ID="{3D76E8B4-CDAA-4F3E-B582-50AE0A459493}" ShortID="904881442">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3" ID="{BBC8EC80-863A-4567-A36E-376EA5F3F7C3}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="37898510"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3" ID="{BBC8EC80-863A-4567-A36E-376EA5F3F7C3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 4" ID="{B5343167-6DD9-4205-B68B-E293F812E277}" ShortID="52050195">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 4" ID="{3EB7657B-B5D6-48DD-BA34-94E9060D346A}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="387369319"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 4" ID="{3EB7657B-B5D6-48DD-BA34-94E9060D346A}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 5" ID="{A52ADD06-53CC-45B0-A44E-18BC37FEC223}" ShortID="196476191">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 5" ID="{C21271AC-2D4A-46AD-80FC-61C718C90CE3}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 5.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="536524558"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 5" ID="{C21271AC-2D4A-46AD-80FC-61C718C90CE3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</ActorMixer>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

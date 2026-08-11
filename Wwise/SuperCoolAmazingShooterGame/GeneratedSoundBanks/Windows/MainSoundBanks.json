@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{2C7B513A-830E-7F34-CFC5-8D8C26B06F44}",
+    "Hash": "{9F0E9C12-917B-B2C9-1F6C-879562731E68}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
     "Media": [
+     {
+      "Id": "37898510",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3.wav",
+      "CachePath": "8F/{8F979A6A-5418-D281-DD56-71737493ECC1}.wem"
+     },
      {
       "Id": "89622345",
       "Language": "SFX",
@@ -22,6 +30,46 @@
       "Location": "Memory",
       "ShortName": "NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip.wav",
       "CachePath": "AF/{AF014C11-6D45-D9F2-E755-B1ECFA8B213F}.wem"
+     },
+     {
+      "Id": "284757120",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452.wav",
+      "CachePath": "19/{196CF5AD-CE6C-AA16-9E42-79A645D7B65B}.wem"
+     },
+     {
+      "Id": "387369319",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 4.wav",
+      "CachePath": "C2/{C2608114-F229-3930-5A59-A815FFF13C43}.wem"
+     },
+     {
+      "Id": "536524558",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 5.wav",
+      "CachePath": "E0/{E090E47A-65F8-5C0C-0497-6ACB01BF534A}.wem"
+     },
+     {
+      "Id": "556684514",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 2.wav",
+      "CachePath": "B2/{B2F3D46F-4082-3A12-E5E9-A6F48FEF67F6}.wem"
+     },
+     {
+      "Id": "839487501",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 1.wav",
+      "CachePath": "07/{07BBEBE3-02B9-39AD-1009-99110F6FC2AC}.wem"
      },
      {
       "Id": "847678716",
@@ -58,10 +106,39 @@
         "Id": "847678716"
        }
       ]
+     },
+     {
+      "Id": "104039902",
+      "Name": "Play_WeaponFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_WeaponFire",
+      "GUID": "{083BD21E-3ACD-44E7-A2E9-20D343429D7E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1.7775834",
+      "DurationMax": "2.5735104",
+      "MediaRefs": [
+       {
+        "Id": "37898510"
+       },
+       {
+        "Id": "284757120"
+       },
+       {
+        "Id": "387369319"
+       },
+       {
+        "Id": "536524558"
+       },
+       {
+        "Id": "556684514"
+       },
+       {
+        "Id": "839487501"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{B0E0B173-3F08-50AE-71A8-99D0E3ACB44D}"
+  "FileHash": "{7ECF9494-385C-892C-368A-C79A5A61E7F6}"
  }
 }
