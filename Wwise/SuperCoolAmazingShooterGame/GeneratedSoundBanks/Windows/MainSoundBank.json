@@ -10,23 +10,58 @@
     "Type": "User",
     "GUID": "{0416724C-5035-409F-B9C4-8D5EA4100E9E}",
     "Language": "SFX",
-    "Hash": "{9E4040A4-6052-7138-FFAE-FC02BB26C223}",
+    "Hash": "{D5AFED9D-0F28-3C79-F3FF-1DC7B228FA10}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBank",
     "ShortName": "MainSoundBank",
     "Path": "MainSoundBank.bnk",
+    "Media": [
+     {
+      "Id": "89622345",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip.wav",
+      "CachePath": "AF/{AF014C11-6D45-D9F2-E755-B1ECFA8B213F}.wem"
+     },
+     {
+      "Id": "847678716",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Machines, Elevator, Otis, 13 People 1000kg, Inside, Doors Close (AB) SND155302.wav",
+      "CachePath": "FD/{FDFAEA47-43EF-E830-1F71-FCA1FDB454BD}.wem"
+     }
+    ],
     "Events": [
+     {
+      "Id": "2585924577",
+      "Name": "Play_MusicPlaylist",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MusicPlaylist",
+      "GUID": "{48843654-5BD9-4511-91C9-C2A8F533070F}",
+      "DurationType": "Infinite",
+      "MediaRefs": [
+       {
+        "Id": "89622345"
+       }
+      ]
+     },
      {
       "Id": "3534139762",
       "Name": "Play_TestTone",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_TestTone",
       "GUID": "{6FAA6173-AD16-4F9F-ADE6-4AD3FAB44C4A}",
       "DurationType": "OneShot",
-      "DurationMin": "0",
-      "DurationMax": "0"
+      "DurationMin": "0.5483073",
+      "DurationMax": "0.5483073",
+      "MediaRefs": [
+       {
+        "Id": "847678716"
+       }
+      ]
      }
     ]
    }
   ],
-  "FileHash": "{3B1E4B47-C6D0-6A33-EE93-E53A5641E57D}"
+  "FileHash": "{BBC76C85-B632-368C-B88D-11A1DB7B8D99}"
  }
 }

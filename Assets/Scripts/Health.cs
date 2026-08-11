@@ -10,7 +10,7 @@ public class Health : MonoBehaviour, IDamageable
 
     public int MaxHealth => _maxHealth;
 
-    [HideInInspector] public int CurrentHealth { get; private set; }
+    [SerializeField] public int CurrentHealth { get; private set; }
 
     public bool IsDead => CurrentHealth <= 0;
 
@@ -18,6 +18,11 @@ public class Health : MonoBehaviour, IDamageable
     public UnityEvent OnDied;
 
     //setters
+
+    private void Start()
+    {
+        CurrentHealth = _maxHealth;
+    }
     public void TakeDamage(int amount)
     {
         if (IsDead) return;

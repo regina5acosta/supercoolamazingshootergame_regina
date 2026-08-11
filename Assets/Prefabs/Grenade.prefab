@@ -149,7 +149,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ac299609f68381a48b88e52c4d2957b9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  paintballPrefab: {fileID: 1955116497652083709, guid: efd8b20fa61ed8142ada6e6cdc5817a5, type: 3}
+  paintballPrefab: {fileID: 1955116497652083709, guid: 58781c1ceac00ae45b4562ddfd5db65d, type: 3}
   fragmentCount: 12
   fragmentSpeed: 15
   autoExplodeTime: 1

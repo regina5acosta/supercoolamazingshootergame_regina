@@ -22,6 +22,18 @@
 									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
 								</Reference>
 							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Machines, Elevator, Otis, 13 People 1000kg, Inside, Doors Close (AB) SND155302" ID="{6B8D5CE3-4CFB-4ABE-9CAF-0841947797A4}">
+									<Language>SFX</Language>
+									<AudioFile>Machines, Elevator, Otis, 13 People 1000kg, Inside, Doors Close (AB) SND155302.wav</AudioFile>
+									<MediaIDList>
+										<MediaID ID="847678716"/>
+									</MediaIDList>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Machines, Elevator, Otis, 13 People 1000kg, Inside, Doors Close (AB) SND155302" ID="{6B8D5CE3-4CFB-4ABE-9CAF-0841947797A4}" Platform="Linked"/>
+							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>
 				</RandomSequenceContainer>

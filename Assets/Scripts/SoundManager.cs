@@ -27,9 +27,19 @@ public class SoundManager : MonoBehaviour
     public AK.Wwise.Event sniperHitEvent;
     public AK.Wwise.Event musicEvent;
     public AK.Wwise.Event ambienceEvent;
+    public AK.Wwise.Event enemyShooter;
+    public AK.Wwise.Event projectile;
 
     public void PlayerFire(GameObject gameObject)
     {
         playerFire?.Post(gameObject);
+    }
+    public void EnemyShooterSound(GameObject gameObject)
+    {
+        enemyShooter?.Post(gameObject);
+    }
+    public void ProjectileSound(GameObject gameObject)
+    {
+        projectile?.Post(gameObject);
     }
 }

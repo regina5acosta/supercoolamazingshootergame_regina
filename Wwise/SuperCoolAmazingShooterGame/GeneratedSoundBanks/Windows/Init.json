@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{A2EDBEE4-C2B7-A3C3-A44F-80B83954BFD3}",
+    "Hash": "{CEEFB149-D74A-D032-EA4D-4814E35CD7A1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -48,6 +48,62 @@
       "Name": "Master Audio Bus",
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus",
       "GUID": "{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}"
+     }
+    ],
+    "StateGroups": [
+     {
+      "Id": "2769481441",
+      "Name": "DayCycle",
+      "ObjectPath": "\\States\\Default Work Unit\\DayCycle",
+      "GUID": "{F2E7D399-C9BD-41C3-9460-43712BCAB1D2}",
+      "States": [
+       {
+        "Id": "311764537",
+        "Name": "Day",
+        "ObjectPath": "\\States\\Default Work Unit\\DayCycle\\Day",
+        "GUID": "{F0246D89-3AFA-4217-A38D-042DD37DA7AA}"
+       },
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\DayCycle\\None",
+        "GUID": "{996D902A-AD48-4CF0-923D-32897E6E0BB5}"
+       },
+       {
+        "Id": "1011622525",
+        "Name": "Night",
+        "ObjectPath": "\\States\\Default Work Unit\\DayCycle\\Night",
+        "GUID": "{A623FC35-2AC3-42E2-90BC-51F7C6AC78D6}"
+       }
+      ]
+     }
+    ],
+    "SwitchGroups": [
+     {
+      "Id": "1834394558",
+      "Name": "Surface",
+      "ObjectPath": "\\Switches\\Default Work Unit\\Surface",
+      "GUID": "{83965C38-16B4-4BED-8606-2FAF9E3278D5}",
+      "Switches": [
+       {
+        "Id": "2058049674",
+        "Name": "Wood",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Wood",
+        "GUID": "{B9A62181-C7F1-4DBD-AFBA-A690969C5563}"
+       },
+       {
+        "Id": "2473969246",
+        "Name": "Metal",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Metal",
+        "GUID": "{ED1BFE87-357E-4AE8-B484-A367478FD831}"
+       },
+       {
+        "Id": "4248645337",
+        "Name": "Grass",
+        "ObjectPath": "\\Switches\\Default Work Unit\\Surface\\Grass",
+        "GUID": "{5596D56D-73DB-4AAE-8C79-EA6B493D1F85}"
+       }
+      ]
      }
     ],
     "AcousticTextures": [
@@ -529,6 +585,6 @@
     ]
    }
   ],
-  "FileHash": "{AD2DB85F-0C94-594F-E1E5-378BB8628817}"
+  "FileHash": "{C793DC90-02A0-0756-C21F-14D68695CC18}"
  }
 }

@@ -372,8 +372,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584172847622416339
+    m_lastTime: -8584157265144316421
     List:
+    - name: Play_MusicPlaylist
+      guid: 54368448d95b114591c9c2a8f533070f
+      id: 2585924577
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: Play_MusicPlaylist
+        ObjectType: 3
+        guid: 54368448d95b114591c9c2a8f533070f
+      Path: Events\Default Work Unit\Play_MusicPlaylist
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
       id: 3534139762
@@ -389,8 +406,8 @@ MonoBehaviour:
         guid: 7361aa6f16ad9f4fade64ad3fab44c4a
       Path: Events\Default Work Unit\Play_TestTone
       maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
+      maxDuration: 0.5483073
+      minDuration: 0.5483073
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -580,7 +597,7 @@ MonoBehaviour:
     m_lastTime: -8584172866519051780
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 0d0000000f000000
+  ExpandedWaapiItemIds: 05000000060000000c0000000d0000000e0000000f000000
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0
