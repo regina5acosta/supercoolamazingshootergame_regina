@@ -233,10 +233,15 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   scoreValue: 50
   lifetime: 4
+  _rtpcScore:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c07b4ff58a8cbd542befb898b2ad0139, type: 2}
   _targetHit:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: dc75ad283c2d3b34397e15efc6757395, type: 2}
+  targetValue: 0
 --- !u!1001 &7341674886832095616
 PrefabInstance:
   m_ObjectHideFlags: 0

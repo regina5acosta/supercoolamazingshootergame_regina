@@ -10,6 +10,8 @@ public class GameManager : MonoBehaviour
 
     [Header("Wwise Stuff")]
     public AK.Wwise.RTPC rtpcPlayerSpeed;
+    public AK.Wwise.RTPC rtpcScore;
+
 
     public float TimeRemaining { get; private set; }
     public int Score { get; private set; }
@@ -64,7 +66,8 @@ public class GameManager : MonoBehaviour
     {
         if (!IsGameActive) return;
         Score += points;
-        OnScoreChanged?.Invoke(Score);
+        OnScoreChanged?.Invoke(Score); 
+        rtpcScore.SetValue(gameObject, Score);
     }
 
     void EndGame()

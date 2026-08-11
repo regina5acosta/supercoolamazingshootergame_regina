@@ -1,3 +1,4 @@
+using AK.Wwise;
 using UnityEngine;
 
 public class Target : MonoBehaviour

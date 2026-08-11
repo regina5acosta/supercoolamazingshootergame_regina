@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{47B3E541-0643-523B-39BA-3D4501405DA1}",
+    "Hash": "{65791B1D-5E8E-03BF-A001-697521401910}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -329,9 +329,17 @@
        }
       ]
      }
+    ],
+    "GameParameters": [
+     {
+      "Id": "3898245870",
+      "Name": "rtpcScore",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rtpcScore",
+      "GUID": "{B84AB8D2-610D-4608-BE09-30359EB1B8F2}"
+     }
     ]
    }
   ],
-  "FileHash": "{929BEE7A-2F85-50C7-CEE2-CB92D4C22F9D}"
+  "FileHash": "{3E99AB1E-8098-80D4-5570-4056FAD475F3}"
  }
 }

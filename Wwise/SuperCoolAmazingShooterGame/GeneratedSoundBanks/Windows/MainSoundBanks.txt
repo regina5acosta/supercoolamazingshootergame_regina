@@ -6,6 +6,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	3020009473	Play_GrenadeExplosion			\Default Work Unit\SFX\Play_GrenadeExplosion	
 	3534139762	Play_TestTone			\Default Work Unit\Play_TestTone	
 
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	3898245870	rtpcScore			\Default Work Unit\rtpcScore	
+
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	37898510	Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3	C:\Users\sd115regina\supercoolamazingshootergame_regina\Wwise\SuperCoolAmazingShooterGame\.cache\8F\{8F979A6A-5418-D281-DD56-71737493ECC1}.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX\WeaponFire\Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3		422892
 	89622345	NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip	C:\Users\sd115regina\supercoolamazingshootergame_regina\Wwise\SuperCoolAmazingShooterGame\.cache\AF\{AF014C11-6D45-D9F2-E755-B1ECFA8B213F}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicPlaylist\MyMusic\NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip		50688096
