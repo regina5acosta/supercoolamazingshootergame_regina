@@ -2,6 +2,10 @@
 <WwiseDocument Type="WorkUnit" ID="{2811CDCB-A737-4DDD-AD00-4D0CC29C959C}" SchemaVersion="123" RootDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" ParentDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}">
 	<Events>
 		<WorkUnit Name="SFX" ID="{2811CDCB-A737-4DDD-AD00-4D0CC29C959C}" OwnerID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="12"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
 			<ChildrenList>
 				<Event Name="Play_WeaponFire" ID="{083BD21E-3ACD-44E7-A2E9-20D343429D7E}">
 					<ChildrenList>
@@ -9,6 +13,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="WeaponFire" ID="{FFF8D148-C145-442B-990B-C0B545F0FDBB}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_TargetHit" ID="{297C5522-A630-40DB-AAA4-340C654D0101}">
+					<ChildrenList>
+						<Action Name="" ID="{0ECEDF78-5B73-4AEB-9B06-4BBC763C2057}" ShortID="255238600">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="TargetHit" ID="{A5645D14-A486-4738-AC3F-055CB5BFD263}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

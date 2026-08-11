@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{978EC7C1-4794-4924-804D-57B3BD0EEA8A}" SchemaVersion="123" RootDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" ParentDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}">
+	<Events>
+		<WorkUnit Name="Mx" ID="{978EC7C1-4794-4924-804D-57B3BD0EEA8A}" OwnerID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="10"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="Play_MusicPlaylist" ID="{48843654-5BD9-4511-91C9-C2A8F533070F}">
+					<ChildrenList>
+						<Action Name="" ID="{5B025525-3409-4319-B085-43D67856E5D6}" ShortID="1018984982">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicPlaylist" ID="{A0E0A12E-D4B2-48E1-B215-E362A328646B}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

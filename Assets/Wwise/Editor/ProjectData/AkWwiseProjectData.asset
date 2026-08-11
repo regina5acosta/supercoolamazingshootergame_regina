@@ -389,25 +389,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584151816258184875
+    m_lastTime: -8584151810822415369
     List:
-    - name: Play_MusicPlaylist
-      guid: 54368448d95b114591c9c2a8f533070f
-      id: 2585924577
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 076ce8a30cfa5a44aaecd3e0005c7042
-      - ElementName: Play_MusicPlaylist
-        ObjectType: 3
-        guid: 54368448d95b114591c9c2a8f533070f
-      Path: Events\Default Work Unit\Play_MusicPlaylist
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
       id: 3534139762
@@ -425,6 +408,42 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+  - PhysicalPath: Events\Mx.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 076ce8a30cfa5a44aaecd3e0005c7042
+    - ElementName: Mx
+      ObjectType: 12
+      guid: c1c78e9794472449804d57b3bd0eea8a
+    ParentPath: Events\Default Work Unit\Mx
+    guid: c1c78e9794472449804d57b3bd0eea8a
+    GuidInternal: 
+    m_lastTime: -8584151810789662363
+    List:
+    - name: Play_MusicPlaylist
+      guid: 54368448d95b114591c9c2a8f533070f
+      id: 2585924577
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: Mx
+        ObjectType: 12
+        guid: c1c78e9794472449804d57b3bd0eea8a
+      - ElementName: Play_MusicPlaylist
+        ObjectType: 3
+        guid: 54368448d95b114591c9c2a8f533070f
+      Path: Events\Default Work Unit\Mx\Play_MusicPlaylist
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\SFX.wwu
     PathAndIcons:
     - ElementName: Events
@@ -439,8 +458,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: cbcd112837a7dd4dad004d0cc29c959c
     GuidInternal: 
-    m_lastTime: -8584151816258229962
+    m_lastTime: -8584151810895901180
     List:
+    - name: Play_TargetHit
+      guid: 22557c2930a6db40aaa4340c654d0101
+      id: 2179906728
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: SFX
+        ObjectType: 12
+        guid: cbcd112837a7dd4dad004d0cc29c959c
+      - ElementName: Play_TargetHit
+        ObjectType: 3
+        guid: 22557c2930a6db40aaa4340c654d0101
+      Path: Events\Default Work Unit\SFX\Play_TargetHit
+      maxAttenuation: 0
+      maxDuration: 1.9615417
+      minDuration: 0.8205
     - name: Play_WeaponFire
       guid: 1ed23b08cd3ae744a2e920d343429d7e
       id: 104039902
