@@ -11,6 +11,10 @@ public class ActiveGrenade : MonoBehaviour
     [HideInInspector] public WeaponSystem weaponSystem;
     float timer;
 
+    [Header("WwiseEvents")]
+    [SerializeField] AK.Wwise.Event _explosionEvent;
+
+
     void Update()
     {
         timer += Time.deltaTime;
@@ -30,6 +34,7 @@ public class ActiveGrenade : MonoBehaviour
 
         if (weaponSystem != null)
             weaponSystem.ClearActiveGrenade();
+        _explosionEvent.Post(gameObject);
 
         Destroy(gameObject);
     }

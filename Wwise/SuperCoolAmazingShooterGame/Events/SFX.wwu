@@ -29,6 +29,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_GrenadeExplosion" ID="{C983B286-E009-4223-8F5C-03036F39EFAF}">
+					<ChildrenList>
+						<Action Name="" ID="{81DB8216-58B1-4D19-9CAF-C1368BE15B44}" ShortID="397113069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GrenadeExplosion" ID="{C3CA1AE6-6E6C-4884-9639-AA259F857969}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

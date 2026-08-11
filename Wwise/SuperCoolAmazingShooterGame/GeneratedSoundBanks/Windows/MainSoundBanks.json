@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{788E97D7-930C-B4B1-D127-AD6618D3A5FE}",
+    "Hash": "{437F52D7-03A2-544B-F63A-6928C16A0605}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -30,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip.wav",
       "CachePath": "AF/{AF014C11-6D45-D9F2-E755-B1ECFA8B213F}.wem"
+     },
+     {
+      "Id": "136617770",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459 3.wav",
+      "CachePath": "B7/{B74E0376-1912-E34A-F8CC-3E2D165ECC44}.wem"
      },
      {
       "Id": "284757120",
@@ -72,6 +80,14 @@
       "CachePath": "B2/{B2F3D46F-4082-3A12-E5E9-A6F48FEF67F6}.wem"
      },
      {
+      "Id": "571191625",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459 1.wav",
+      "CachePath": "42/{429F6937-6210-DFB0-50C9-128C0B55EBA0}.wem"
+     },
+     {
       "Id": "640334736",
       "Language": "SFX",
       "Streaming": "false",
@@ -86,6 +102,14 @@
       "Location": "Memory",
       "ShortName": "Voices, Scream, Man Eaten By Alligator, Wilhelm Scream SND96097 1.wav",
       "CachePath": "6B/{6BDEF5CC-448B-3A3C-EA92-EDDFFE1CBABA}.wem"
+     },
+     {
+      "Id": "804660770",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459 2.wav",
+      "CachePath": "CE/{CE27D4BD-A599-4C75-8A5B-3A5F3DDA9405}.wem"
      },
      {
       "Id": "839487501",
@@ -118,9 +142,41 @@
       "Location": "Memory",
       "ShortName": "Voices, Scream, Man Eaten By Alligator, Wilhelm Scream SND96097 4.wav",
       "CachePath": "C4/{C43A207C-DB3E-3982-EB69-9A9B4A74748C}.wem"
+     },
+     {
+      "Id": "1029611607",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459.wav",
+      "CachePath": "E6/{E62D523E-07BF-575C-62A2-9B127BB0B162}.wem"
      }
     ],
     "Events": [
+     {
+      "Id": "3020009473",
+      "Name": "Play_GrenadeExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_GrenadeExplosion",
+      "GUID": "{C983B286-E009-4223-8F5C-03036F39EFAF}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "1.2487396",
+      "DurationMax": "2.3777397",
+      "MediaRefs": [
+       {
+        "Id": "136617770"
+       },
+       {
+        "Id": "571191625"
+       },
+       {
+        "Id": "804660770"
+       },
+       {
+        "Id": "1029611607"
+       }
+      ]
+     },
      {
       "Id": "2585924577",
       "Name": "Play_MusicPlaylist",
@@ -140,6 +196,7 @@
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_TargetHit",
       "GUID": "{297C5522-A630-40DB-AAA4-340C654D0101}",
       "Color": "12",
+      "MaxAttenuation": "40",
       "DurationType": "OneShot",
       "DurationMin": "0.8205",
       "DurationMax": "1.9615417",
@@ -208,6 +265,6 @@
     ]
    }
   ],
-  "FileHash": "{96B3D44F-B8B1-DEC4-05AD-D203AF8E5B2D}"
+  "FileHash": "{C094DB4A-5AF1-05E1-6181-F05C823DABA6}"
  }
 }

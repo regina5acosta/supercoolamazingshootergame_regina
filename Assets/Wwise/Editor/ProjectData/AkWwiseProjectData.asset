@@ -389,7 +389,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584151810822415369
+    m_lastTime: -8584151806077199011
     List:
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
@@ -458,8 +458,28 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: cbcd112837a7dd4dad004d0cc29c959c
     GuidInternal: 
-    m_lastTime: -8584151810895901180
+    m_lastTime: -8584151806077244097
     List:
+    - name: Play_GrenadeExplosion
+      guid: 86b283c909e023428f5c03036f39efaf
+      id: 3020009473
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: SFX
+        ObjectType: 12
+        guid: cbcd112837a7dd4dad004d0cc29c959c
+      - ElementName: Play_GrenadeExplosion
+        ObjectType: 3
+        guid: 86b283c909e023428f5c03036f39efaf
+      Path: Events\Default Work Unit\SFX\Play_GrenadeExplosion
+      maxAttenuation: 0
+      maxDuration: 2.3777397
+      minDuration: 1.2487396
     - name: Play_TargetHit
       guid: 22557c2930a6db40aaa4340c654d0101
       id: 2179906728
@@ -477,7 +497,7 @@ MonoBehaviour:
         ObjectType: 3
         guid: 22557c2930a6db40aaa4340c654d0101
       Path: Events\Default Work Unit\SFX\Play_TargetHit
-      maxAttenuation: 0
+      maxAttenuation: 40
       maxDuration: 1.9615417
       minDuration: 0.8205
     - name: Play_WeaponFire
@@ -689,7 +709,7 @@ MonoBehaviour:
     m_lastTime: -8584172866519051780
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 05000000060000000c0000000d0000000e0000000f000000e1290100
+  ExpandedWaapiItemIds: 0500000006000000090000000c0000000d0000000e0000000f000000e1290100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

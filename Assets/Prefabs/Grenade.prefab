@@ -155,6 +155,10 @@ MonoBehaviour:
   fragmentSpeed: 15
   autoExplodeTime: 1
   weaponSystem: {fileID: 0}
+  _explosionEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 14f9d968faa87f544bfb9664c7f0ba17, type: 2}
 --- !u!114 &4455213674204828282
 MonoBehaviour:
   m_ObjectHideFlags: 0

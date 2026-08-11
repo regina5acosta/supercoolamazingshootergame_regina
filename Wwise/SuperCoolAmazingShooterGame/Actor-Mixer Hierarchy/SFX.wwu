@@ -381,6 +381,106 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="GrenadeExplosion" ID="{C3CA1AE6-6E6C-4884-9639-AA259F857969}" ShortID="351734512">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Explosion, Real, Cannon Blast, Airy SND117459" ID="{AC263AE9-21AC-495F-950A-07EF7C15DF0D}" ShortID="127589666">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Explosion, Real, Cannon Blast, Airy SND117459" ID="{300F4BAE-1372-4CCB-B31A-C94A04444C4C}">
+											<Language>SFX</Language>
+											<AudioFile>Explosion, Real, Cannon Blast, Airy SND117459.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="1029611607"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Explosion, Real, Cannon Blast, Airy SND117459" ID="{300F4BAE-1372-4CCB-B31A-C94A04444C4C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Explosion, Real, Cannon Blast, Airy SND117459 1" ID="{CD08C26E-0308-4CFA-BCD5-CDC0553E49E3}" ShortID="1010435587">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Explosion, Real, Cannon Blast, Airy SND117459 1" ID="{7D6CED4E-B127-46E4-9748-53122EC25017}">
+											<Language>SFX</Language>
+											<AudioFile>Explosion, Real, Cannon Blast, Airy SND117459 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="571191625"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Explosion, Real, Cannon Blast, Airy SND117459 1" ID="{7D6CED4E-B127-46E4-9748-53122EC25017}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Explosion, Real, Cannon Blast, Airy SND117459 2" ID="{3B996162-9789-43B7-A204-C74D52CF71E4}" ShortID="461822536">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Explosion, Real, Cannon Blast, Airy SND117459 2" ID="{43963DCF-E0F2-41A4-88E0-CCE823E7AFE2}">
+											<Language>SFX</Language>
+											<AudioFile>Explosion, Real, Cannon Blast, Airy SND117459 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="804660770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Explosion, Real, Cannon Blast, Airy SND117459 2" ID="{43963DCF-E0F2-41A4-88E0-CCE823E7AFE2}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Explosion, Real, Cannon Blast, Airy SND117459 3" ID="{548A1331-7AA7-4CDF-8985-3C7DD4E315C5}" ShortID="353935230">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Explosion, Real, Cannon Blast, Airy SND117459 3" ID="{7C735CCC-CB03-4884-A12C-435D6B33344C}">
+											<Language>SFX</Language>
+											<AudioFile>Explosion, Real, Cannon Blast, Airy SND117459 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="136617770"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Explosion, Real, Cannon Blast, Airy SND117459 3" ID="{7C735CCC-CB03-4884-A12C-435D6B33344C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>
