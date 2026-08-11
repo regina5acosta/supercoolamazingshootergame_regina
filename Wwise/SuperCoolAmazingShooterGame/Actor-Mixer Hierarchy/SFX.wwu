@@ -481,6 +481,128 @@
 								</Sound>
 							</ChildrenList>
 						</RandomSequenceContainer>
+						<RandomSequenceContainer Name="CollectiblePickup" ID="{F9FEB875-1A03-4019-8CB9-0B22261C66C4}" ShortID="311976908">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290" ID="{9F1567F5-BB9E-45D8-AFB1-0DA03A35A080}" ShortID="1067649411">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290" ID="{F0D0E282-C080-4FF4-B6C0-F297030A19D4}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="422325863"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290" ID="{F0D0E282-C080-4FF4-B6C0-F297030A19D4}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 1" ID="{15F9989B-6FE2-4AB8-9A03-B942DADE3AF7}" ShortID="853889946">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 1" ID="{759ED749-B760-480E-A323-27EACBEB44F7}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 1.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="415900691"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 1" ID="{759ED749-B760-480E-A323-27EACBEB44F7}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 2" ID="{E565051C-776A-47F5-955D-1B9AA9DDA57E}" ShortID="526453198">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 2" ID="{1E37E020-2F19-4270-AE64-4C73121CF4BE}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 2.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="742831736"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 2" ID="{1E37E020-2F19-4270-AE64-4C73121CF4BE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 3" ID="{7BFA6AAE-E3C8-4853-AF2B-7D75B6BCF036}" ShortID="10505983">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 3" ID="{3E2A2262-C592-4310-9AC0-A2419846F6F6}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 3.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="604591142"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 3" ID="{3E2A2262-C592-4310-9AC0-A2419846F6F6}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 4" ID="{22C3C8FA-F8A6-458B-95C9-2375FE2EAD85}" ShortID="520411931">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 4" ID="{9028A5CF-5B20-4971-9D87-ED42F38A149F}">
+											<Language>SFX</Language>
+											<AudioFile>Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 4.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="476356069"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 4" ID="{9028A5CF-5B20-4971-9D87-ED42F38A149F}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

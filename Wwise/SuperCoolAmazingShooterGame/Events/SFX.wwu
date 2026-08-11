@@ -40,6 +40,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_CollectiblePickup" ID="{64906E92-1E9A-4E95-8E97-9E3F0B101505}">
+					<ChildrenList>
+						<Action Name="" ID="{CC4916AD-C7DB-4DA0-86EA-6D56F8477F4C}" ShortID="16756571">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="CollectiblePickup" ID="{F9FEB875-1A03-4019-8CB9-0B22261C66C4}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

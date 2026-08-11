@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{437F52D7-03A2-544B-F63A-6928C16A0605}",
+    "Hash": "{47B3E541-0643-523B-39BA-3D4501405DA1}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -56,6 +56,30 @@
       "CachePath": "C2/{C2608114-F229-3930-5A59-A815FFF13C43}.wem"
      },
      {
+      "Id": "415900691",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 1.wav",
+      "CachePath": "A1/{A1E77327-E065-1EF0-9333-E42B3A5709AF}.wem"
+     },
+     {
+      "Id": "422325863",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290.wav",
+      "CachePath": "9B/{9B936EE4-B491-0897-FD5D-C93C4C13D449}.wem"
+     },
+     {
+      "Id": "476356069",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 4.wav",
+      "CachePath": "BA/{BAD23002-5A08-FCF2-E790-8031B6543644}.wem"
+     },
+     {
       "Id": "536524558",
       "Language": "SFX",
       "Streaming": "false",
@@ -88,12 +112,28 @@
       "CachePath": "42/{429F6937-6210-DFB0-50C9-128C0B55EBA0}.wem"
      },
      {
+      "Id": "604591142",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 3.wav",
+      "CachePath": "F2/{F239B7F1-417C-2CFF-E748-E4E94BC63017}.wem"
+     },
+     {
       "Id": "640334736",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Voices, Scream, Man Eaten By Alligator, Wilhelm Scream SND96097 3.wav",
       "CachePath": "DB/{DB176FA0-369B-AEF7-690E-25C0E1AF163B}.wem"
+     },
+     {
+      "Id": "742831736",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290 2.wav",
+      "CachePath": "BF/{BFD8A221-B172-057F-FD9D-93EC31F1BBA5}.wem"
      },
      {
       "Id": "779490118",
@@ -153,6 +193,33 @@
      }
     ],
     "Events": [
+     {
+      "Id": "1738910796",
+      "Name": "Play_CollectiblePickup",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_CollectiblePickup",
+      "GUID": "{64906E92-1E9A-4E95-8E97-9E3F0B101505}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "0.52054167",
+      "DurationMax": "0.835875",
+      "MediaRefs": [
+       {
+        "Id": "415900691"
+       },
+       {
+        "Id": "422325863"
+       },
+       {
+        "Id": "476356069"
+       },
+       {
+        "Id": "604591142"
+       },
+       {
+        "Id": "742831736"
+       }
+      ]
+     },
      {
       "Id": "3020009473",
       "Name": "Play_GrenadeExplosion",
@@ -265,6 +332,6 @@
     ]
    }
   ],
-  "FileHash": "{C094DB4A-5AF1-05E1-6181-F05C823DABA6}"
+  "FileHash": "{929BEE7A-2F85-50C7-CEE2-CB92D4C22F9D}"
  }
 }

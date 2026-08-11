@@ -128,3 +128,7 @@ MonoBehaviour:
   rotateSpeed: 90
   bobSpeed: 2
   bobHeight: 0.25
+  _collectibleEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 37ff6a442a5754d489d596cbcdb8d571, type: 2}

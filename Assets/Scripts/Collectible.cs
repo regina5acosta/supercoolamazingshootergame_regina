@@ -9,6 +9,9 @@ public class Collectible : MonoBehaviour
     public float bobHeight = 0.25f;
 
     Vector3 startPos;
+    [Header("Wwise Events")]
+    [SerializeField] AK.Wwise.Event _collectibleEvent;
+
 
     void Start()
     {
@@ -33,5 +36,6 @@ public class Collectible : MonoBehaviour
             weapon.SetBulletType(grantedBulletType, perkDuration);
             Destroy(gameObject);
         }
+        _collectibleEvent.Post(gameObject);
     }
 }
