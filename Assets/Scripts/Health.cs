@@ -17,7 +17,7 @@ public class Health : MonoBehaviour, IDamageable
     public UnityEvent<int> OnDamaged;
     public UnityEvent OnDied;
 
-    //setters
+    //Setters
 
     private void Start()
     {
@@ -44,4 +44,5 @@ public class Health : MonoBehaviour, IDamageable
             CurrentHealth = Mathf.Min(CurrentHealth + amount, _maxHealth);
         }
     }
+
 }

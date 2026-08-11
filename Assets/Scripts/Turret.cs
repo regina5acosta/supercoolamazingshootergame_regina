@@ -45,9 +45,7 @@ public class Turret : Target
             projectile.GetComponent<Rigidbody>().linearVelocity = direction * projectileSpeed;
 
             //SoundManager.Instance.ProjectileSound(gameObject);
-
-        }
+               
+         }
     }
-
-
 }
