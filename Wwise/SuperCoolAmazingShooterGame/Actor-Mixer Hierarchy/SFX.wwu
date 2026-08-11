@@ -172,6 +172,7 @@
 						<RandomSequenceContainer Name="TargetHit" ID="{A5645D14-A486-4738-AC3F-055CB5BFD263}" ShortID="910384863">
 							<PropertyList>
 								<Property Name="3DSpatialization" Type="int16" Value="2"/>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="OverridePositioning" Type="bool" Value="True"/>
 							</PropertyList>
 							<ReferenceList>
@@ -265,7 +266,7 @@
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+									<ObjectRef Name="SFX" ID="{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>

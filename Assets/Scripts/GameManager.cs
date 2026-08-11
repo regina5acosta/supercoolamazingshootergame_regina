@@ -66,8 +66,8 @@ public class GameManager : MonoBehaviour
     {
         if (!IsGameActive) return;
         Score += points;
-        OnScoreChanged?.Invoke(Score); 
-        rtpcScore.SetValue(gameObject, Score);
+        OnScoreChanged?.Invoke(Score);
+        rtpcScore.SetValue(gameObject, 0.1f);
     }
 
     void EndGame()
