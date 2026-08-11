@@ -4,5 +4,5 @@ Event	ID	Name			Wwise Object Path	Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	89622345	NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip	C:\Users\sd115regina\supercoolamazingshootergame_regina\Wwise\SuperCoolAmazingShooterGame\.cache\AF\{AF014C11-6D45-D9F2-E755-B1ECFA8B213F}.wem		\Interactive Music Hierarchy\Default Work Unit\MusicPlaylist\MyMusic\NOFUTUREPREMIERE_Eisebelle_-_dawn_chorus_KLICKAUD - Converted with FlexClip		50688096
-	847678716	New Sound SFX	C:\Users\sd115regina\supercoolamazingshootergame_regina\Wwise\SuperCoolAmazingShooterGame\.cache\FD\{FDFAEA47-43EF-E830-1F71-FCA1FDB454BD}.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestTone\New Sound SFX		105368
+	847678716	New Sound SFX	C:\Users\sd115regina\supercoolamazingshootergame_regina\Wwise\SuperCoolAmazingShooterGame\.cache\7B\{7B47D25D-1FD8-1E6E-CA9F-8BF25C69C39C}.wem		\Actor-Mixer Hierarchy\Default Work Unit\TestTone\New Sound SFX		0
 

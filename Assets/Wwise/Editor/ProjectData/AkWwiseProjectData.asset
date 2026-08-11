@@ -340,26 +340,26 @@ MonoBehaviour:
       guid: 00000000000000000000000000000000
     - ElementName: Main
       ObjectType: 12
-      guid: bdcc6a067f008341b9e625f521847194
+      guid: ef634aaec69772429c0aa38a3538781b
     ParentPath: SoundBanks\Main
-    guid: bdcc6a067f008341b9e625f521847194
+    guid: ef634aaec69772429c0aa38a3538781b
     GuidInternal: 
-    m_lastTime: -8584172847177457117
+    m_lastTime: -8584151879959741979
     List:
-    - name: MainSoundBank
-      guid: 4c72160435509f40b9c48d5ea4100e9e
-      id: 534561221
+    - name: MainSoundBanks
+      guid: 7b852e89d403694489d3ffee1359fe76
+      id: 3984918892
       PathAndIcons:
       - ElementName: SoundBanks
         ObjectType: 5
         guid: 00000000000000000000000000000000
       - ElementName: Main
         ObjectType: 12
-        guid: bdcc6a067f008341b9e625f521847194
-      - ElementName: MainSoundBank
+        guid: ef634aaec69772429c0aa38a3538781b
+      - ElementName: MainSoundBanks
         ObjectType: 7
-        guid: 4c72160435509f40b9c48d5ea4100e9e
-      Path: SoundBanks\Main\MainSoundBank
+        guid: 7b852e89d403694489d3ffee1359fe76
+      Path: SoundBanks\Main\MainSoundBanks
   EventWwu:
   - PhysicalPath: Events\Default Work Unit.wwu
     PathAndIcons:
@@ -406,8 +406,8 @@ MonoBehaviour:
         guid: 7361aa6f16ad9f4fade64ad3fab44c4a
       Path: Events\Default Work Unit\Play_TestTone
       maxAttenuation: 0
-      maxDuration: 0.5483073
-      minDuration: 0.5483073
+      maxDuration: 0
+      minDuration: 0
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
