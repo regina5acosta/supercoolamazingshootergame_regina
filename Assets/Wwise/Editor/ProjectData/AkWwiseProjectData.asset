@@ -423,7 +423,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584151754864098291
+    m_lastTime: -8584151733195359313
     List:
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
@@ -442,6 +442,62 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+  - PhysicalPath: Events\GameStates.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 076ce8a30cfa5a44aaecd3e0005c7042
+    - ElementName: GameStates
+      ObjectType: 12
+      guid: bcff13ddb486d84bbce8a68ccb04aa1d
+    ParentPath: Events\Default Work Unit\GameStates
+    guid: bcff13ddb486d84bbce8a68ccb04aa1d
+    GuidInternal: 
+    m_lastTime: -8584151730708800323
+    List:
+    - name: EndScreen
+      guid: d5139d6c02bbc242a413e5818effd2b6
+      id: 1441380152
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: GameStates
+        ObjectType: 12
+        guid: bcff13ddb486d84bbce8a68ccb04aa1d
+      - ElementName: EndScreen
+        ObjectType: 3
+        guid: d5139d6c02bbc242a413e5818effd2b6
+      Path: Events\Default Work Unit\GameStates\EndScreen
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: Resume
+      guid: 87ac5e36c63d7747896f34d477242135
+      id: 953277036
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: GameStates
+        ObjectType: 12
+        guid: bcff13ddb486d84bbce8a68ccb04aa1d
+      - ElementName: Resume
+        ObjectType: 3
+        guid: 87ac5e36c63d7747896f34d477242135
+      Path: Events\Default Work Unit\GameStates\Resume
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
   - PhysicalPath: Events\Mx.wwu
     PathAndIcons:
     - ElementName: Events
@@ -456,10 +512,10 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Mx
     guid: c1c78e9794472449804d57b3bd0eea8a
     GuidInternal: 
-    m_lastTime: -8584151754864140186
+    m_lastTime: -8584151733287042964
     List:
     - name: Play_MainMenuMusic
-      guid: 53642be2a15dbe42999f2ecac41d0152
+      guid: 615ec1a0b60d3b46bc09a8218613eb43
       id: 667425441
       PathAndIcons:
       - ElementName: Events
@@ -473,7 +529,7 @@ MonoBehaviour:
         guid: c1c78e9794472449804d57b3bd0eea8a
       - ElementName: Play_MainMenuMusic
         ObjectType: 3
-        guid: 53642be2a15dbe42999f2ecac41d0152
+        guid: 615ec1a0b60d3b46bc09a8218613eb43
       Path: Events\Default Work Unit\Mx\Play_MainMenuMusic
       maxAttenuation: 0
       maxDuration: 0
@@ -499,7 +555,7 @@ MonoBehaviour:
       maxDuration: 0
       minDuration: 0
     - name: Stop_MainMenuMusic
-      guid: 91aae2277071694b9ba2a1a24e7a0fc4
+      guid: 89ea74810fc19b49beb3c0fe73e272cf
       id: 1307794083
       PathAndIcons:
       - ElementName: Events
@@ -513,7 +569,7 @@ MonoBehaviour:
         guid: c1c78e9794472449804d57b3bd0eea8a
       - ElementName: Stop_MainMenuMusic
         ObjectType: 3
-        guid: 91aae2277071694b9ba2a1a24e7a0fc4
+        guid: 89ea74810fc19b49beb3c0fe73e272cf
       Path: Events\Default Work Unit\Mx\Stop_MainMenuMusic
       maxAttenuation: 0
       maxDuration: 0
@@ -873,7 +929,7 @@ MonoBehaviour:
     m_lastTime: -8584172866519051780
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000100000001a0000001b000000e1290100
+  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e0000000f000000100000001a0000001b000000ac000000ad000000ae000000e1290100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

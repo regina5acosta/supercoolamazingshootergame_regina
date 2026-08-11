@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{E6D5925C-E287-D7B2-CF2A-42F5429B8EFE}",
+    "Hash": "{56D3AFB5-6D40-08A0-31D9-88273EE72089}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -218,6 +218,17 @@
     ],
     "Events": [
      {
+      "Id": "1441380152",
+      "Name": "EndScreen",
+      "ObjectPath": "\\Events\\Default Work Unit\\GameStates\\EndScreen",
+      "GUID": "{6C9D13D5-BB02-42C2-A413-E5818EFFD2B6}",
+      "Color": "7",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1738910796",
       "Name": "Play_CollectiblePickup",
       "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_CollectiblePickup",
@@ -272,7 +283,7 @@
       "Id": "667425441",
       "Name": "Play_MainMenuMusic",
       "ObjectPath": "\\Events\\Default Work Unit\\Mx\\Play_MainMenuMusic",
-      "GUID": "{E22B6453-5DA1-42BE-999F-2ECAC41D0152}",
+      "GUID": "{A0C15E61-0DB6-463B-BC09-A8218613EB43}",
       "Color": "10",
       "DurationType": "Infinite",
       "MediaRefs": [
@@ -397,10 +408,21 @@
       ]
      },
      {
+      "Id": "953277036",
+      "Name": "Resume",
+      "ObjectPath": "\\Events\\Default Work Unit\\GameStates\\Resume",
+      "GUID": "{365EAC87-3DC6-4777-896F-34D477242135}",
+      "Color": "7",
+      "MaxAttenuation": "0",
+      "DurationType": "OneShot",
+      "DurationMin": "0",
+      "DurationMax": "0"
+     },
+     {
       "Id": "1307794083",
       "Name": "Stop_MainMenuMusic",
       "ObjectPath": "\\Events\\Default Work Unit\\Mx\\Stop_MainMenuMusic",
-      "GUID": "{27E2AA91-7170-4B69-9BA2-A1A24E7A0FC4}",
+      "GUID": "{8174EA89-C10F-499B-BEB3-C0FE73E272CF}",
       "Color": "10",
       "MaxAttenuation": "0",
       "DurationType": "OneShot",
@@ -418,6 +440,6 @@
     ]
    }
   ],
-  "FileHash": "{058EC8EC-5BEE-1185-50F8-26858A2C4A15}"
+  "FileHash": "{F72FFE86-4F83-3F54-F939-89D26F5D01F0}"
  }
 }

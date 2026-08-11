@@ -3899,6 +3899,7 @@ GameObject:
   - component: {fileID: 1607786472}
   - component: {fileID: 1607786474}
   - component: {fileID: 1607786473}
+  - component: {fileID: 1607786475}
   m_Layer: 5
   m_Name: EndScreenPanel
   m_TagString: Untagged
@@ -3966,6 +3967,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1607786471}
   m_CullTransparentMesh: 1
+--- !u!114 &1607786475
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607786471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb3bdaebfed75be4bb37fddc9f7a19ed, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _endScreenEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 3c4bc4e1ec0ac744bb9cdbe23eb1abf2, type: 2}
+  _resumeEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea60d125b4fc16940b8f15c34694b412, type: 2}
 --- !u!1 &1616885789
 GameObject:
   m_ObjectHideFlags: 0

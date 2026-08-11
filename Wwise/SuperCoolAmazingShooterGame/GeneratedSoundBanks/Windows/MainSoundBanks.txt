@@ -2,7 +2,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	104039902	Play_WeaponFire			\Default Work Unit\SFX\Play_WeaponFire	
 	281154517	Play_UIQuit			\Default Work Unit\UI\Play_UIQuit	
 	667425441	Play_MainMenuMusic			\Default Work Unit\Mx\Play_MainMenuMusic	
+	953277036	Resume			\Default Work Unit\GameStates\Resume	
 	1307794083	Stop_MainMenuMusic			\Default Work Unit\Mx\Stop_MainMenuMusic	
+	1441380152	EndScreen			\Default Work Unit\GameStates\EndScreen	
 	1738910796	Play_CollectiblePickup			\Default Work Unit\SFX\Play_CollectiblePickup	
 	2179906728	Play_TargetHit			\Default Work Unit\SFX\Play_TargetHit	
 	2585924577	Play_MusicPlaylist			\Default Work Unit\Mx\Play_MusicPlaylist	

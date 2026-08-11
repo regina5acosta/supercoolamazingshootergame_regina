@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{DD13FFBC-86B4-4BD8-BCE8-A68CCB04AA1D}" SchemaVersion="123" RootDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" ParentDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}">
+	<Events>
+		<WorkUnit Name="GameStates" ID="{DD13FFBC-86B4-4BD8-BCE8-A68CCB04AA1D}" OwnerID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" PersistMode="Nested">
+			<PropertyList>
+				<Property Name="Color" Type="int16" Value="7"/>
+				<Property Name="OverrideColor" Type="bool" Value="True"/>
+			</PropertyList>
+			<ChildrenList>
+				<Event Name="EndScreen" ID="{6C9D13D5-BB02-42C2-A413-E5818EFFD2B6}">
+					<ChildrenList>
+						<Action Name="" ID="{45F77893-7DD4-42CE-9E6C-F21672005E2D}" ShortID="59326607">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+							<ChildrenList>
+								<EventActionException Name="" ID="{1B07062B-F529-4CFB-BDFB-224A4E927553}">
+									<ReferenceList>
+										<Reference Name="Target">
+											<ObjectRef Name="MusicPlaylist" ID="{A0E0A12E-D4B2-48E1-B215-E362A328646B}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+										</Reference>
+									</ReferenceList>
+								</EventActionException>
+							</ChildrenList>
+						</Action>
+						<Action Name="" ID="{FAB9EE31-765B-489C-A426-56E246D074D5}" ShortID="974792668">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="26"/>
+								<Property Name="Lowpass" Type="int16" Value="-31"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuMusic" ID="{AC51136F-F42E-48E0-A4D5-89455F5D6805}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{B49F1C5B-E041-4A50-9577-FF04D70FEC93}" ShortID="54855992">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="29"/>
+								<Property Name="Highpass" Type="int16" Value="28"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuMusic" ID="{AC51136F-F42E-48E0-A4D5-89455F5D6805}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{76788F14-34FA-4EF5-AB8D-33FD9EC73F63}" ShortID="246024437">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="12"/>
+								<Property Name="Volume" Type="Real64" Value="-11"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MainMenuMusic" ID="{AC51136F-F42E-48E0-A4D5-89455F5D6805}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Resume" ID="{365EAC87-3DC6-4777-896F-34D477242135}">
+					<ChildrenList>
+						<Action Name="" ID="{1E5FD02D-2B4F-4272-A259-F6997C5D5296}" ShortID="456873021">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MusicPlaylist" ID="{A0E0A12E-D4B2-48E1-B215-E362A328646B}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{190E7A60-3066-47F2-B279-E57BB5FB8718}" ShortID="243916549">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="10"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

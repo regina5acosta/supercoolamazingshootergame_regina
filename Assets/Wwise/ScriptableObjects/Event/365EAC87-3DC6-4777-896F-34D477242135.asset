@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ca4afe8606afc774baa4b661c88fb8b7, type: 3}
-  m_Name: 27E2AA91-7170-4B69-9BA2-A1A24E7A0FC4
+  m_Name: 365EAC87-3DC6-4777-896F-34D477242135
   m_EditorClassIdentifier: 
-  objectName: Stop_MainMenuMusic
-  id: 1307794083
-  guid: 27E2AA91-7170-4B69-9BA2-A1A24E7A0FC4
+  objectName: Resume
+  id: 953277036
+  guid: 365EAC87-3DC6-4777-896F-34D477242135
   IsInUserDefinedSoundBank: 1

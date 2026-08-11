@@ -203,7 +203,7 @@
 										<Property Name="LoopCount" Type="int16" Value="0"/>
 									</PropertyList>
 									<ChildrenList>
-										<MusicPlaylistItem Name="" ID="{8E291C2D-66BE-40C7-AE71-AC288C955298}" ShortID="303998258">
+										<MusicPlaylistItem Name="" ID="{7382A299-BE9C-4B46-98C2-94FC2A1CC5E8}" ShortID="754209848">
 											<PropertyList>
 												<Property Name="PlaylistItemType" Type="int16" Value="1"/>
 											</PropertyList>
