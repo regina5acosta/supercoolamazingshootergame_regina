@@ -496,8 +496,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584151708788577302
+    m_lastTime: -8584150082507491215
     List:
+    - name: Play_MUSIIIIC
+      guid: 9020f62611afa9408c8c866088e3351d
+      id: 3959713538
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: Play_MUSIIIIC
+        ObjectType: 3
+        guid: 9020f62611afa9408c8c866088e3351d
+      Path: Events\Default Work Unit\Play_MUSIIIIC
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
       id: 3534139762
@@ -529,7 +546,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\GameStates
     guid: bcff13ddb486d84bbce8a68ccb04aa1d
     GuidInternal: 
-    m_lastTime: -8584151726106741382
+    m_lastTime: -8584150085879533372
     List:
     - name: EndScreen
       guid: d5139d6c02bbc242a413e5818effd2b6
@@ -585,7 +602,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Mx
     guid: c1c78e9794472449804d57b3bd0eea8a
     GuidInternal: 
-    m_lastTime: -8584151733287042964
+    m_lastTime: -8584150085879478330
     List:
     - name: Play_MainMenuMusic
       guid: 615ec1a0b60d3b46bc09a8218613eb43
@@ -859,7 +876,7 @@ MonoBehaviour:
     ParentPath: States\Default Work Unit
     guid: 480f481497b9934ca27160c8a5724dbb
     GuidInternal: 
-    m_lastTime: -8584172831393071351
+    m_lastTime: -8584150088282764416
     List:
     - name: DayCycle
       guid: 99d3e7f2bdc9c341946043712bcab1d2
@@ -924,6 +941,88 @@ MonoBehaviour:
         - ElementName: None
           ObjectType: 8
           guid: 2a906d9948adf04c923d32897e6e0bb5
+      ValueGuids: []
+      ValueIcons: []
+      valuesInternal: []
+    - name: GameState
+      guid: b54f652f2222644085e9dcf3f8cbdd00
+      id: 4091656514
+      PathAndIcons:
+      - ElementName: States
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 480f481497b9934ca27160c8a5724dbb
+      - ElementName: GameState
+        ObjectType: 9
+        guid: b54f652f2222644085e9dcf3f8cbdd00
+      Path: States\Default Work Unit\GameState
+      values:
+      - name: MainMenu
+        guid: 6868677f1390434ca7902da8723ed7c9
+        id: 3604647259
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 480f481497b9934ca27160c8a5724dbb
+        - ElementName: GameState
+          ObjectType: 9
+          guid: b54f652f2222644085e9dcf3f8cbdd00
+        - ElementName: MainMenu
+          ObjectType: 8
+          guid: 6868677f1390434ca7902da8723ed7c9
+      - name: None
+        guid: f41df150b32ade449b897525cfe2e075
+        id: 748895195
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 480f481497b9934ca27160c8a5724dbb
+        - ElementName: GameState
+          ObjectType: 9
+          guid: b54f652f2222644085e9dcf3f8cbdd00
+        - ElementName: None
+          ObjectType: 8
+          guid: f41df150b32ade449b897525cfe2e075
+      - name: Pause
+        guid: 7355efbc7f234143a924ee2633f86f69
+        id: 3092587493
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 480f481497b9934ca27160c8a5724dbb
+        - ElementName: GameState
+          ObjectType: 9
+          guid: b54f652f2222644085e9dcf3f8cbdd00
+        - ElementName: Pause
+          ObjectType: 8
+          guid: 7355efbc7f234143a924ee2633f86f69
+      - name: Running
+        guid: 72840a5c14d0b84792f3d3f2b70b925e
+        id: 3863236874
+        PathAndIcons:
+        - ElementName: States
+          ObjectType: 5
+          guid: 00000000000000000000000000000000
+        - ElementName: Default Work Unit
+          ObjectType: 12
+          guid: 480f481497b9934ca27160c8a5724dbb
+        - ElementName: GameState
+          ObjectType: 9
+          guid: b54f652f2222644085e9dcf3f8cbdd00
+        - ElementName: Running
+          ObjectType: 8
+          guid: 72840a5c14d0b84792f3d3f2b70b925e
       ValueGuids: []
       ValueIcons: []
       valuesInternal: []
@@ -1022,7 +1121,7 @@ MonoBehaviour:
     m_lastTime: -8584172866519051780
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e0000000f00000010000000120000001a0000001b000000ac000000ad000000ae000000e1290100
+  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e00000010000000120000001a0000001b00000035000000ac000000ad000000ae000000452d0000462d0000482d0000e1290100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

@@ -10,6 +10,14 @@
 						<State Name="Night" ID="{A623FC35-2AC3-42E2-90BC-51F7C6AC78D6}"/>
 					</ChildrenList>
 				</StateGroup>
+				<StateGroup Name="GameState" ID="{2F654FB5-2222-4064-85E9-DCF3F8CBDD00}">
+					<ChildrenList>
+						<State Name="None" ID="{50F11DF4-2AB3-44DE-9B89-7525CFE2E075}"/>
+						<State Name="Pause" ID="{BCEF5573-237F-4341-A924-EE2633F86F69}"/>
+						<State Name="MainMenu" ID="{7F676868-9013-4C43-A790-2DA8723ED7C9}"/>
+						<State Name="Running" ID="{5C0A8472-D014-47B8-92F3-D3F2B70B925E}"/>
+					</ChildrenList>
+				</StateGroup>
 			</ChildrenList>
 		</WorkUnit>
 	</States>

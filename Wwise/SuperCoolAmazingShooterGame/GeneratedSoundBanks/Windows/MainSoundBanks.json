@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{36DA6D90-04F8-E863-5978-681858E7CCA5}",
+    "Hash": "{8C066959-9C38-A48E-D5BD-C22388385862}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -29,7 +29,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience, Insect, Cicadas, Intense, Sunset SND123210.wav",
-      "CachePath": "91/{91AEF04A-76BC-A54F-8FAD-368F1F2C5495}.wem"
+      "CachePath": "77/{77A776B8-DEA7-2886-D2F4-E1C50840C805}.wem"
      },
      {
       "Id": "89622345",
@@ -69,7 +69,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "DSGNErie_Eerie Bell Ethereal Ambience_SD96 Arisa_VFST6A.wav",
-      "CachePath": "F8/{F8D8C970-8DAA-BAC8-0AC9-03DBCD931E85}.wem"
+      "CachePath": "7B/{7BD63580-D2A7-EE90-B6C7-45EB04F46DB6}.wem"
      },
      {
       "Id": "284757120",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Ambience, Insect, Crickets Ambience, Night, Meadow 03 SND79738.wav",
-      "CachePath": "0B/{0BEE96B5-D275-FCB5-CD13-CAAEC1AF5C5C}.wem"
+      "CachePath": "61/{61C1D592-C4DE-9CCF-A107-66B8ACB0781F}.wem"
      },
      {
       "Id": "604591142",
@@ -396,6 +396,54 @@
       ]
      },
      {
+      "Id": "3959713538",
+      "Name": "Play_MUSIIIIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_MUSIIIIC",
+      "GUID": "{26F62090-AF11-40A9-8C8C-866088E3351D}",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3604647259",
+         "GUID": "{7F676868-9013-4C43-A790-2DA8723ED7C9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "779227348"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3863236874",
+         "GUID": "{5C0A8472-D014-47B8-92F3-D3F2B70B925E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "89622345"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3092587493",
+         "GUID": "{BCEF5573-237F-4341-A924-EE2633F86F69}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "89622345"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "257059477",
       "Name": "Play_NightBed",
       "ObjectPath": "\\Events\\Default Work Unit\\BGs\\Play_NightBed",
@@ -572,9 +620,43 @@
       "ObjectPath": "\\Game Parameters\\Default Work Unit\\rtpcScore",
       "GUID": "{B84AB8D2-610D-4608-BE09-30359EB1B8F2}"
      }
+    ],
+    "StateGroups": [
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\GameState",
+      "GUID": "{2F654FB5-2222-4064-85E9-DCF3F8CBDD00}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\None",
+        "GUID": "{50F11DF4-2AB3-44DE-9B89-7525CFE2E075}"
+       },
+       {
+        "Id": "3092587493",
+        "Name": "Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Pause",
+        "GUID": "{BCEF5573-237F-4341-A924-EE2633F86F69}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MainMenu",
+        "GUID": "{7F676868-9013-4C43-A790-2DA8723ED7C9}"
+       },
+       {
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Running",
+        "GUID": "{5C0A8472-D014-47B8-92F3-D3F2B70B925E}"
+       }
+      ]
+     }
     ]
    }
   ],
-  "FileHash": "{68A5CAD0-D6E9-D2EA-14F2-E15D4970E2B6}"
+  "FileHash": "{FC3398EF-58AE-0A8A-4AA8-D3FE7D73D57D}"
  }
 }

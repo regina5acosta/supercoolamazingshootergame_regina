@@ -571,6 +571,7 @@ GameObject:
   m_Component:
   - component: {fileID: 808762365}
   - component: {fileID: 808762364}
+  - component: {fileID: 808762366}
   m_Layer: 0
   m_Name: MainMenuManager
   m_TagString: Untagged
@@ -603,11 +604,11 @@ MonoBehaviour:
   _mainMenuMusicStart:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: 2ffe440b865656844bead2e7e95bc265, type: 2}
+    WwiseObjectReference: {fileID: 0}
   _mainMenuMusicStop:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: ad0a71e826843be4da666e43e622f805, type: 2}
+    WwiseObjectReference: {fileID: 0}
 --- !u!4 &808762365
 Transform:
   m_ObjectHideFlags: 0
@@ -623,6 +624,38 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &808762366
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808762363}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8195a26018f8e43918be1480543282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: 90cfc86f4b042f04980bcff58c50b226, type: 2}
+  _enableEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: dfa47164f2febb6468d98a20281789cb, type: 2}
+  _disableState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _disableEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &963199470
 GameObject:
   m_ObjectHideFlags: 0

@@ -1422,6 +1422,7 @@ GameObject:
   - component: {fileID: 775921434}
   - component: {fileID: 775921433}
   - component: {fileID: 775921432}
+  - component: {fileID: 775921435}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1516,6 +1517,38 @@ Canvas:
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &775921435
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 775921430}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8195a26018f8e43918be1480543282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea41b7539d23b9243bb3cd75ca4d9c89, type: 2}
+  _enableEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _disableState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _disableEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &780379183
 GameObject:
   m_ObjectHideFlags: 0
@@ -3337,6 +3370,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: 17790_Angel_2_v1_NEW
       objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 2cacef81d5b3a6b46b0778a378344b31, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 3697217766876801934, guid: 2cacef81d5b3a6b46b0778a378344b31, type: 3}
       propertyPath: m_LocalPosition.x
       value: 0
@@ -3530,7 +3567,7 @@ MonoBehaviour:
   _musicEvent:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 11400000, guid: a13cc80de1958ed4a933cc5ab55dc905, type: 2}
+    WwiseObjectReference: {fileID: 11400000, guid: dfa47164f2febb6468d98a20281789cb, type: 2}
   _ambienceDayEvent:
     idInternal: 0
     valueGuidInternal: 
@@ -3916,6 +3953,7 @@ GameObject:
   - component: {fileID: 1607786474}
   - component: {fileID: 1607786473}
   - component: {fileID: 1607786475}
+  - component: {fileID: 1607786476}
   m_Layer: 5
   m_Name: EndScreenPanel
   m_TagString: Untagged
@@ -4003,6 +4041,38 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: ea60d125b4fc16940b8f15c34694b412, type: 2}
+--- !u!114 &1607786476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1607786471}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cb8195a26018f8e43918be1480543282, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _enableState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: c0f7625530b590b4592bf06f05b6c1ab, type: 2}
+  _enableEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
+  _disableState:
+    idInternal: 0
+    valueGuidInternal: 
+    groupIdInternal: 0
+    groupGuidInternal: 
+    WwiseObjectReference: {fileID: 11400000, guid: ea41b7539d23b9243bb3cd75ca4d9c89, type: 2}
+  _disableEvent:
+    idInternal: 0
+    valueGuidInternal: 
+    WwiseObjectReference: {fileID: 0}
 --- !u!1 &1616885789
 GameObject:
   m_ObjectHideFlags: 0

@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{EDA613F1-7A9A-C934-2AE5-B06A8A5DB8ED}",
+    "Hash": "{06F20F81-6042-FB01-C175-B29A1D39ABB1}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -111,6 +111,38 @@
         "Name": "Night",
         "ObjectPath": "\\States\\Default Work Unit\\DayCycle\\Night",
         "GUID": "{A623FC35-2AC3-42E2-90BC-51F7C6AC78D6}"
+       }
+      ]
+     },
+     {
+      "Id": "4091656514",
+      "Name": "GameState",
+      "ObjectPath": "\\States\\Default Work Unit\\GameState",
+      "GUID": "{2F654FB5-2222-4064-85E9-DCF3F8CBDD00}",
+      "States": [
+       {
+        "Id": "748895195",
+        "Name": "None",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\None",
+        "GUID": "{50F11DF4-2AB3-44DE-9B89-7525CFE2E075}"
+       },
+       {
+        "Id": "3092587493",
+        "Name": "Pause",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Pause",
+        "GUID": "{BCEF5573-237F-4341-A924-EE2633F86F69}"
+       },
+       {
+        "Id": "3604647259",
+        "Name": "MainMenu",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\MainMenu",
+        "GUID": "{7F676868-9013-4C43-A790-2DA8723ED7C9}"
+       },
+       {
+        "Id": "3863236874",
+        "Name": "Running",
+        "ObjectPath": "\\States\\Default Work Unit\\GameState\\Running",
+        "GUID": "{5C0A8472-D014-47B8-92F3-D3F2B70B925E}"
        }
       ]
      }
@@ -622,6 +654,6 @@
     ]
    }
   ],
-  "FileHash": "{58389D5F-5B8E-1F54-8C6A-CECC8E4A6229}"
+  "FileHash": "{4E6433FC-E5D5-C189-21F7-BA0FE054E9FE}"
  }
 }

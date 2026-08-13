@@ -1,10 +1,15 @@
 State Group	ID	Name			Wwise Object Path	Notes
 	2769481441	DayCycle			\Default Work Unit\DayCycle	
+	4091656514	GameState			\Default Work Unit\GameState	
 
 State	ID	Name	State Group			Notes
 	311764537	Day	DayCycle			
 	748895195	None	DayCycle			
 	1011622525	Night	DayCycle			
+	748895195	None	GameState			
+	3092587493	Pause	GameState			
+	3604647259	MainMenu	GameState			
+	3863236874	Running	GameState			
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	504532776	Brick			\Factory Acoustic Textures\Textures\Brick	
