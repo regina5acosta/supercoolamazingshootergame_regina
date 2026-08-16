@@ -19,14 +19,42 @@
 								<Property Name="Color" Type="int16" Value="12"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ChildrenList>
+								<Bus Name="UI" ID="{0522ADBF-0681-497C-93AF-AA5780890ECA}">
+									<PropertyList>
+										<Property Name="Color" Type="int16" Value="2"/>
+										<Property Name="OverrideColor" Type="bool" Value="True"/>
+									</PropertyList>
+								</Bus>
+							</ChildrenList>
 						</Bus>
-						<Bus Name="UI" ID="{0522ADBF-0681-497C-93AF-AA5780890ECA}">
-							<PropertyList>
-								<Property Name="Color" Type="int16" Value="2"/>
-								<Property Name="OverrideColor" Type="bool" Value="True"/>
-							</PropertyList>
+						<Bus Name="Mx" ID="{0D8B2525-D997-4ABF-B7E1-838BBCDB940A}">
+							<StateInfo>
+								<StateGroupList>
+									<StateGroupInfo>
+										<StateGroupRef Name="GameState" ID="{2F654FB5-2222-4064-85E9-DCF3F8CBDD00}"/>
+									</StateGroupInfo>
+								</StateGroupList>
+								<CustomStateList>
+									<CustomState>
+										<StateRef Name="Pause" ID="{BCEF5573-237F-4341-A924-EE2633F86F69}"/>
+										<CustomState Name="" ID="{9259AE75-7228-4E7B-800B-34417CD0D9B5}" ShortID="738632281">
+											<PropertyList>
+												<Property Name="BusVolume" Type="Real64" Value="-4"/>
+											</PropertyList>
+										</CustomState>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="Running" ID="{5C0A8472-D014-47B8-92F3-D3F2B70B925E}"/>
+										<CustomState Name="" ID="{DEF41290-A17F-4BF7-9442-8B23077829B4}" ShortID="312685410"/>
+									</CustomState>
+									<CustomState>
+										<StateRef Name="MainMenu" ID="{7F676868-9013-4C43-A790-2DA8723ED7C9}"/>
+										<CustomState Name="" ID="{1A15B281-DEF1-4352-8240-7396BFCBB341}" ShortID="1010066105"/>
+									</CustomState>
+								</CustomStateList>
+							</StateInfo>
 						</Bus>
-						<Bus Name="Mx" ID="{0D8B2525-D997-4ABF-B7E1-838BBCDB940A}"/>
 						<Bus Name="BGs" ID="{B0A90BB3-C609-4693-B216-D1D578586D9E}">
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
@@ -37,6 +65,45 @@
 								<Property Name="Color" Type="int16" Value="4"/>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
+							<ObjectLists>
+								<ObjectList Name="RTPC">
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{E96F8650-95EE-4F86-B765-6BD44525F83B}" ShortID="803669299">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Volume"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="rtpc_speed" ID="{DF2D77B9-26EE-47B2-9B02-A8ADA69D1A00}" WorkUnitID="{A08A6CDE-8692-4AE9-914D-FE3D739E221E}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{80C3644D-2B32-4912-9FDC-280ED5079B2F}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="3"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>-2.49163</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>100</XPos>
+																		<YPos>3.8831</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+								</ObjectList>
+							</ObjectLists>
 						</Bus>
 					</ChildrenList>
 				</Bus>

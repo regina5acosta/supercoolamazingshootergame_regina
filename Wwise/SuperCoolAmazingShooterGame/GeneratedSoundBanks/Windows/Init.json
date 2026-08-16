@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{06F20F81-6042-FB01-C175-B29A1D39ABB1}",
+    "Hash": "{72F94799-0261-56C0-E0E0-CCEE5712B5F3}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -60,7 +60,7 @@
      {
       "Id": "1551306167",
       "Name": "UI",
-      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\UI",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\UI",
       "GUID": "{0522ADBF-0681-497C-93AF-AA5780890ECA}",
       "Color": "2"
      },
@@ -80,6 +80,12 @@
      }
     ],
     "GameParameters": [
+     {
+      "Id": "1381474336",
+      "Name": "rtpc_speed",
+      "ObjectPath": "\\Game Parameters\\Default Work Unit\\rtpc_speed",
+      "GUID": "{DF2D77B9-26EE-47B2-9B02-A8ADA69D1A00}"
+     },
      {
       "Id": "3898245870",
       "Name": "rtpcScore",
@@ -654,6 +660,6 @@
     ]
    }
   ],
-  "FileHash": "{4E6433FC-E5D5-C189-21F7-BA0FE054E9FE}"
+  "FileHash": "{58E86161-4E35-433B-AEBB-1F4B607AB442}"
  }
 }

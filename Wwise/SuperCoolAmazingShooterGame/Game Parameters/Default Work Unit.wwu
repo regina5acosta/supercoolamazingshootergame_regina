@@ -6,7 +6,13 @@
 				<GameParameter Name="rtpcScore" ID="{B84AB8D2-610D-4608-BE09-30359EB1B8F2}">
 					<PropertyList>
 						<Property Name="InitialValue" Type="Real64" Value="0"/>
-						<Property Name="Max" Type="Real64" Value="1000"/>
+						<Property Name="Max" Type="Real64" Value="2000"/>
+					</PropertyList>
+				</GameParameter>
+				<GameParameter Name="rtpc_speed" ID="{DF2D77B9-26EE-47B2-9B02-A8ADA69D1A00}">
+					<PropertyList>
+						<Property Name="BindToBuiltInParam" Type="int16" Value="1"/>
+						<Property Name="InitialValue" Type="Real64" Value="0"/>
 					</PropertyList>
 				</GameParameter>
 			</ChildrenList>

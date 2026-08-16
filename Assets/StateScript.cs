@@ -5,8 +5,7 @@ public class StateScript : MonoBehaviour
     [SerializeField] AK.Wwise.State _enableState;
     [SerializeField] AK.Wwise.Event _enableEvent;
     
-    [SerializeField] AK.Wwise.State _disableState;
-    [SerializeField] AK.Wwise.Event _disableEvent;
+   
 
     private void OnEnable()
     {
@@ -14,9 +13,5 @@ public class StateScript : MonoBehaviour
         _enableEvent.Post(gameObject);
     }
 
-    private void OnDisable()
-    {
-        _disableEvent.Post(gameObject);
-        _disableState.SetValue();
-    }
+    
 }

@@ -1,6 +1,7 @@
 using UnityEngine;
 using System.Collections;
 using System.Collections.Generic;
+using Unity.VisualScripting;
 
 public class MusicCallbacks : MonoBehaviour
 {
@@ -50,6 +51,8 @@ public class MusicCallbacks : MonoBehaviour
                     DynamicGI.UpdateEnvironment();
                     _ambienceNightEvent.Post(gameObject);
                     break;
+
+                    
                 case "change_color_green":
                     colorTarget = Color.green;
                     break;

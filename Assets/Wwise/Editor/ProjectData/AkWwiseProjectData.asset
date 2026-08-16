@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 88b8a6a12a024b4eb2e4a1f843298983
     GuidInternal: 
-    m_lastTime: -8584151707458783700
+    m_lastTime: -8584147548619569531
     List:
     - name: BGs
       guid: b30ba9b009c69346b216d1d578586d9e
@@ -383,10 +383,13 @@ MonoBehaviour:
       - ElementName: Master Audio Bus
         ObjectType: 2
         guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 6177caffe61f7c468b8bd5a4020994be
       - ElementName: UI
         ObjectType: 2
         guid: bfad220581067c4993afaa5780890eca
-      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\UI
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\UI
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -678,7 +681,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: cbcd112837a7dd4dad004d0cc29c959c
     GuidInternal: 
-    m_lastTime: -8584151720587871652
+    m_lastTime: -8584147659027127163
     List:
     - name: Play_CollectiblePickup
       guid: 926e90649a1e954e8e979e3f0b101505
@@ -848,8 +851,22 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: de6c8aa09286e94a914dfe3d739e221e
     GuidInternal: 
-    m_lastTime: -8584151783788011006
+    m_lastTime: -8584147573846601074
     List:
+    - name: rtpc_speed
+      guid: b9772ddfee26b2479b02a8ada69d1a00
+      id: 1381474336
+      PathAndIcons:
+      - ElementName: Game Parameters
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: de6c8aa09286e94a914dfe3d739e221e
+      - ElementName: rtpc_speed
+        ObjectType: 13
+        guid: b9772ddfee26b2479b02a8ada69d1a00
+      Path: Game Parameters\Default Work Unit\rtpc_speed
     - name: rtpcScore
       guid: d2b84ab80d610846be0930359eb1b8f2
       id: 3898245870
@@ -1121,7 +1138,7 @@ MonoBehaviour:
     m_lastTime: -8584172866519051780
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e00000010000000120000001a0000001b00000035000000ac000000ad000000ae000000452d0000462d0000482d0000e1290100
+  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e0000000f00000010000000120000001a0000001b00000035000000ac000000ad000000ae000000452d0000462d0000482d0000e1290100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

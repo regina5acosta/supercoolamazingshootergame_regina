@@ -604,11 +604,7 @@ MonoBehaviour:
   _mainMenuMusicStart:
     idInternal: 0
     valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  _mainMenuMusicStop:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
+    WwiseObjectReference: {fileID: 11400000, guid: dfa47164f2febb6468d98a20281789cb, type: 2}
 --- !u!4 &808762365
 Transform:
   m_ObjectHideFlags: 0
@@ -646,16 +642,6 @@ MonoBehaviour:
     idInternal: 0
     valueGuidInternal: 
     WwiseObjectReference: {fileID: 11400000, guid: dfa47164f2febb6468d98a20281789cb, type: 2}
-  _disableState:
-    idInternal: 0
-    valueGuidInternal: 
-    groupIdInternal: 0
-    groupGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
-  _disableEvent:
-    idInternal: 0
-    valueGuidInternal: 
-    WwiseObjectReference: {fileID: 0}
 --- !u!1 &963199470
 GameObject:
   m_ObjectHideFlags: 0

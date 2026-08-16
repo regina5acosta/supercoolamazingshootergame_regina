@@ -11,7 +11,6 @@ public class MainMenu : MonoBehaviour
     [SerializeField] AK.Wwise.Event _uiStartEvent;
     [SerializeField] AK.Wwise.Event _uiQuitEvent;
     [SerializeField] AK.Wwise.Event _mainMenuMusicStart;
-    [SerializeField] AK.Wwise.Event _mainMenuMusicStop;
 
 
     void Start()
@@ -29,7 +28,6 @@ public class MainMenu : MonoBehaviour
     {
         SceneManager.LoadScene("Game");
         _uiStartEvent.Post(gameObject);
-        _mainMenuMusicStop.Post(gameObject);
     }
 
     void Quit()

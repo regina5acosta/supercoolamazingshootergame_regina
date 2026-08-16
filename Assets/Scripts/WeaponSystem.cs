@@ -33,7 +33,10 @@ public class WeaponSystem : MonoBehaviour
     public float fireRate = 0.2f;
    
     [Header("Wwise Events")]
-    [SerializeField] AK.Wwise.Event _genericFireEvent;
+    [SerializeField] AK.Wwise.Event _shotgunFireEvent;
+    [SerializeField] AK.Wwise.Event _paintballFireEvent;
+    [SerializeField] AK.Wwise.Event _sniperHitEvent;
+    [SerializeField] AK.Wwise.Event _grenadeFireEvent;
 
     float nextFireTime;
     BulletType currentBulletType = BulletType.Paintball;
@@ -96,8 +99,6 @@ public class WeaponSystem : MonoBehaviour
                 FireGrenade();
                 break;
         }
-        _genericFireEvent.Post(gameObject);
-
     }
 
     void FirePaintball()
@@ -106,6 +107,8 @@ public class WeaponSystem : MonoBehaviour
         IgnorePlayerCollision(ball);
         Rigidbody rb = ball.GetComponent<Rigidbody>();
         rb.linearVelocity = firePoint.forward * paintballSpeed;
+        _paintballFireEvent.Post(gameObject);
+
     }
 
     void FireSniper()
@@ -113,6 +116,7 @@ public class WeaponSystem : MonoBehaviour
         if (Physics.Raycast(firePoint.position, firePoint.forward, out RaycastHit hit, sniperRange, targetLayer))
         {
             Target target = hit.collider.GetComponent<Target>();
+            _sniperHitEvent.Post(gameObject);
             if (target != null)
                 target.DestroyTarget();
         }
@@ -131,6 +135,7 @@ public class WeaponSystem : MonoBehaviour
             spread += firePoint.up * Random.Range(-shotgunSpreadAngle, shotgunSpreadAngle) / 100f;
 
             rb.linearVelocity = spread.normalized * paintballSpeed;
+            _shotgunFireEvent.Post(gameObject);
         }
     }
 
@@ -143,6 +148,7 @@ public class WeaponSystem : MonoBehaviour
 
         activeGrenade = grenade.GetComponent<ActiveGrenade>();
         activeGrenade.weaponSystem = this;
+        _grenadeFireEvent.Post(gameObject);
     }
 
     public void ClearActiveGrenade()
