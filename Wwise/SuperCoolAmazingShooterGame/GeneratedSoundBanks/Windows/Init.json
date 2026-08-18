@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{72F94799-0261-56C0-E0E0-CCEE5712B5F3}",
+    "Hash": "{00F11AAE-3639-D06A-A7D9-FC80E2E58A2C}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -56,6 +56,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BGs",
       "GUID": "{B0A90BB3-C609-4693-B216-D1D578586D9E}",
       "Color": "4"
+     },
+     {
+      "Id": "1467963052",
+      "Name": "Weapons",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\SFX\\Weapons",
+      "GUID": "{8BB39F26-E3A3-4BEA-A437-317A793B2F3C}",
+      "Color": "12"
      },
      {
       "Id": "1551306167",
@@ -660,6 +667,6 @@
     ]
    }
   ],
-  "FileHash": "{58E86161-4E35-433B-AEBB-1F4B607AB442}"
+  "FileHash": "{37A35A33-0563-F8D0-CDB7-53FD009188F6}"
  }
 }

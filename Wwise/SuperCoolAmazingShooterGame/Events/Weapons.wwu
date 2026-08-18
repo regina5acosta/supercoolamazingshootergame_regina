@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{6CE1F3DB-7406-4C03-8C6A-EE39803F712B}" SchemaVersion="123" RootDocumentID="{A3E86C07-FA0C-445A-AAEC-D3E0005C7042}" ParentDocumentID="{2811CDCB-A737-4DDD-AD00-4D0CC29C959C}">
+	<Events>
+		<WorkUnit Name="Weapons" ID="{6CE1F3DB-7406-4C03-8C6A-EE39803F712B}" OwnerID="{2811CDCB-A737-4DDD-AD00-4D0CC29C959C}" PersistMode="Nested">
+			<ChildrenList>
+				<Event Name="Play_GrenadeExplosion" ID="{C983B286-E009-4223-8F5C-03036F39EFAF}">
+					<ChildrenList>
+						<Action Name="" ID="{81DB8216-58B1-4D19-9CAF-C1368BE15B44}" ShortID="397113069">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GrenadeExplosion" ID="{C3CA1AE6-6E6C-4884-9639-AA259F857969}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_GrenadeFire" ID="{A84162B6-5851-434A-9B6E-2855D77648F3}">
+					<ChildrenList>
+						<Action Name="" ID="{C2A69005-B1E6-4BF2-A33E-A28491EED873}" ShortID="709775980">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="GrenadeFire" ID="{18DFF715-E89B-44D1-92DB-4AF9AAC3B1A1}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_PaintballFire" ID="{12D9A4DA-81E2-4073-AA1B-6F17711CF4BB}">
+					<ChildrenList>
+						<Action Name="" ID="{3C4109DA-B13C-4B2F-912A-86B8EADBABF6}" ShortID="299302760">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="PaintballFire" ID="{0D29FFBD-6D6E-40D2-A82B-3B9086DE74F0}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SniperFire" ID="{7A3C9D56-B2A0-4287-B3C4-2ECCD4AD9A95}">
+					<ChildrenList>
+						<Action Name="" ID="{96F55DFF-33EA-4B58-BE69-CEF76A23D774}" ShortID="423175698">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SniperFire" ID="{D4FD35AE-E872-41A3-BF15-4CC6B9010DF3}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_ShotgunFire" ID="{63AF2829-D317-452F-A7C4-1F70EFDC2C59}">
+					<ChildrenList>
+						<Action Name="" ID="{5E03933B-1C12-4424-B1FA-713EB2D0D92B}" ShortID="1000874130">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="ShotgunFire" ID="{7171C35E-C1CB-4117-BC8B-AD6DC26464D9}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

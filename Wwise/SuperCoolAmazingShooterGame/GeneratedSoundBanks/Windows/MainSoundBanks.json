@@ -10,11 +10,19 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{C1FB0D5F-117E-22F2-4084-BF5CD4D2F6B7}",
+    "Hash": "{A2D3F171-B396-EF2A-0700-86AC3FC1F3E4}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
     "Media": [
+     {
+      "Id": "26450518",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 3.wav",
+      "CachePath": "63/{6347F682-89A0-FD50-34E2-96A14E52D28A}.wem"
+     },
      {
       "Id": "37898510",
       "Language": "SFX",
@@ -22,6 +30,14 @@
       "Location": "Memory",
       "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452 3.wav",
       "CachePath": "8F/{8F979A6A-5418-D281-DD56-71737493ECC1}.wem"
+     },
+     {
+      "Id": "69065674",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Rifle, Sniper, Shot, No Tail SND117320 1.wav",
+      "CachePath": "80/{80E40EFF-0A90-1045-3605-AC3C243276A2}.wem"
      },
      {
       "Id": "78881303",
@@ -56,12 +72,12 @@
       "CachePath": "51/{51580BB3-8BAB-2A25-55DC-EF6DAB223185}.wem"
      },
      {
-      "Id": "136617770",
+      "Id": "174259710",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459 3.wav",
-      "CachePath": "B7/{B74E0376-1912-E34A-F8CC-3E2D165ECC44}.wem"
+      "ShortName": "hellraiser.wav",
+      "CachePath": "18/{1855DF5E-6F0B-BC3E-A19B-09D7EEC8D189}.wem"
      },
      {
       "Id": "195143983",
@@ -70,6 +86,30 @@
       "Location": "Memory",
       "ShortName": "DSGNErie_Eerie Bell Ethereal Ambience_SD96 Arisa_VFST6A.wav",
       "CachePath": "7B/{7BD63580-D2A7-EE90-B6C7-45EB04F46DB6}.wem"
+     },
+     {
+      "Id": "208325780",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 3.wav",
+      "CachePath": "5B/{5B632E33-4EC1-CAC4-5A06-90FB933E43C5}.wem"
+     },
+     {
+      "Id": "227477585",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 2.wav",
+      "CachePath": "63/{63444FC8-AB08-E840-F09B-7DE0D87DE99B}.wem"
+     },
+     {
+      "Id": "243982142",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Rifle, Sniper, Shot, No Tail SND117320.wav",
+      "CachePath": "25/{256244D1-4A31-9408-24A5-415DAF3EFD6F}.wem"
      },
      {
       "Id": "284757120",
@@ -88,6 +128,14 @@
       "CachePath": "C2/{C2608114-F229-3930-5A59-A815FFF13C43}.wem"
      },
      {
+      "Id": "397930027",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 1.wav",
+      "CachePath": "49/{49B7D8E3-FEEB-9E1C-5FB9-7FB5FBE08CFD}.wem"
+     },
+     {
       "Id": "415900691",
       "Language": "SFX",
       "Streaming": "false",
@@ -96,12 +144,28 @@
       "CachePath": "A1/{A1E77327-E065-1EF0-9333-E42B3A5709AF}.wem"
      },
      {
+      "Id": "419624308",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 1.wav",
+      "CachePath": "41/{419DFF13-50BE-9DF3-44AC-BC8B673F06F5}.wem"
+     },
+     {
       "Id": "422325863",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Guns, Mechanism, Shotgun, Cock, Reload, Lock 'n Load SND6290.wav",
       "CachePath": "9B/{9B936EE4-B491-0897-FD5D-C93C4C13D449}.wem"
+     },
+     {
+      "Id": "443139364",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 2.wav",
+      "CachePath": "06/{067C3DF9-E9E4-415A-C125-0B6E73A49B3E}.wem"
      },
      {
       "Id": "454248248",
@@ -120,6 +184,22 @@
       "CachePath": "BA/{BAD23002-5A08-FCF2-E790-8031B6543644}.wem"
      },
      {
+      "Id": "517197499",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 8.wav",
+      "CachePath": "98/{9804F440-95EE-4034-04E1-896BD4E5AF8A}.wem"
+     },
+     {
+      "Id": "527111023",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Rifle, Sniper, Shot, No Tail SND117320 3.wav",
+      "CachePath": "7D/{7DA72634-1AF1-FF0C-F6EE-7189F5900575}.wem"
+     },
+     {
       "Id": "536524558",
       "Language": "SFX",
       "Streaming": "false",
@@ -134,6 +214,22 @@
       "Location": "Memory",
       "ShortName": "UI_Button_Press_V1 2.wav",
       "CachePath": "E3/{E3371F90-4A8B-A3FE-E252-9E05E47362CC}.wem"
+     },
+     {
+      "Id": "544078317",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664.wav",
+      "CachePath": "30/{307C2974-84AE-2FB7-1785-1746FA69B71A}.wem"
+     },
+     {
+      "Id": "546838947",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Rifle, Sniper, Shot, No Tail SND117320 2.wav",
+      "CachePath": "AA/{AA13E414-9F8B-8222-9423-12DBC50A8E83}.wem"
      },
      {
       "Id": "547816236",
@@ -152,20 +248,20 @@
       "CachePath": "B2/{B2F3D46F-4082-3A12-E5E9-A6F48FEF67F6}.wem"
      },
      {
-      "Id": "571191625",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459 1.wav",
-      "CachePath": "42/{429F6937-6210-DFB0-50C9-128C0B55EBA0}.wem"
-     },
-     {
       "Id": "582015104",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Cartoon, Pop, Vanish SND11747 1.wav",
       "CachePath": "A6/{A6408CF1-851E-3D83-6D8E-20F2F5593E21}.wem"
+     },
+     {
+      "Id": "590288490",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450.wav",
+      "CachePath": "22/{22347514-7AE2-E0FF-9A78-C1CD5D50CFD6}.wem"
      },
      {
       "Id": "598061137",
@@ -208,6 +304,14 @@
       "CachePath": "CD/{CDB4FD81-11E0-6FAE-86B7-D1C36EADFBEF}.wem"
      },
      {
+      "Id": "668038639",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 7.wav",
+      "CachePath": "06/{06609ABC-460A-B4FA-F85E-50A5B9057985}.wem"
+     },
+     {
       "Id": "742831736",
       "Language": "SFX",
       "Streaming": "false",
@@ -238,14 +342,6 @@
       "Location": "Memory",
       "ShortName": "Cartoon, Pop, Vanish SND11747 4.wav",
       "CachePath": "C4/{C4DD615A-DBBD-9C6A-176B-E801B77C5285}.wem"
-     },
-     {
-      "Id": "804660770",
-      "Language": "SFX",
-      "Streaming": "false",
-      "Location": "Memory",
-      "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459 2.wav",
-      "CachePath": "CE/{CE27D4BD-A599-4C75-8A5B-3A5F3DDA9405}.wem"
      },
      {
       "Id": "839487501",
@@ -280,12 +376,36 @@
       "CachePath": "C4/{C43A207C-DB3E-3982-EB69-9A9B4A74748C}.wem"
      },
      {
-      "Id": "1029611607",
+      "Id": "855926355",
       "Language": "SFX",
       "Streaming": "false",
       "Location": "Memory",
-      "ShortName": "Explosion, Real, Cannon Blast, Airy SND117459.wav",
-      "CachePath": "E6/{E62D523E-07BF-575C-62A2-9B127BB0B162}.wem"
+      "ShortName": "Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 9.wav",
+      "CachePath": "A2/{A2FB72A8-6A6A-CD75-D8C6-7BA76A315E9D}.wem"
+     },
+     {
+      "Id": "953626959",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 6.wav",
+      "CachePath": "E2/{E2F1565B-4E0B-7DDD-868D-C3B512085D83}.wem"
+     },
+     {
+      "Id": "986906654",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664 1.wav",
+      "CachePath": "A9/{A9A18B60-3267-4821-EE5B-CB6DBAF8A5B9}.wem"
+     },
+     {
+      "Id": "1027332036",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 4.wav",
+      "CachePath": "54/{54F20AE2-53FA-C4F7-7816-53D8187417B3}.wem"
      }
     ],
     "Events": [
@@ -347,25 +467,43 @@
      {
       "Id": "3020009473",
       "Name": "Play_GrenadeExplosion",
-      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Play_GrenadeExplosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Weapons\\Play_GrenadeExplosion",
       "GUID": "{C983B286-E009-4223-8F5C-03036F39EFAF}",
       "Color": "12",
-      "MaxAttenuation": "40",
+      "MaxAttenuation": "35",
       "DurationType": "OneShot",
-      "DurationMin": "1.2487396",
-      "DurationMax": "2.3777397",
+      "DurationMin": "2.4474735",
+      "DurationMax": "3.5422187",
       "MediaRefs": [
        {
-        "Id": "136617770"
+        "Id": "208325780"
        },
        {
-        "Id": "571191625"
+        "Id": "419624308"
        },
        {
-        "Id": "804660770"
+        "Id": "443139364"
        },
        {
-        "Id": "1029611607"
+        "Id": "1027332036"
+       }
+      ]
+     },
+     {
+      "Id": "2665718224",
+      "Name": "Play_GrenadeFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Weapons\\Play_GrenadeFire",
+      "GUID": "{A84162B6-5851-434A-9B6E-2855D77648F3}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "1.0111355",
+      "DurationMax": "1.0644375",
+      "MediaRefs": [
+       {
+        "Id": "544078317"
+       },
+       {
+        "Id": "986906654"
        }
       ]
      },
@@ -398,8 +536,9 @@
      {
       "Id": "3959713538",
       "Name": "Play_MUSIIIIC",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_MUSIIIIC",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mx\\Play_MUSIIIIC",
       "GUID": "{26F62090-AF11-40A9-8C8C-866088E3351D}",
+      "Color": "10",
       "DurationType": "Infinite",
       "SwitchContainers": [
        {
@@ -437,7 +576,7 @@
         },
         "MediaRefs": [
          {
-          "Id": "89622345"
+          "Id": "174259710"
          }
         ]
        }
@@ -453,6 +592,78 @@
       "MediaRefs": [
        {
         "Id": "598061137"
+       }
+      ]
+     },
+     {
+      "Id": "2638340285",
+      "Name": "Play_PaintballFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Weapons\\Play_PaintballFire",
+      "GUID": "{12D9A4DA-81E2-4073-AA1B-6F17711CF4BB}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "1.6899166",
+      "DurationMax": "1.7837917",
+      "MediaRefs": [
+       {
+        "Id": "517197499"
+       },
+       {
+        "Id": "668038639"
+       },
+       {
+        "Id": "855926355"
+       },
+       {
+        "Id": "953626959"
+       }
+      ]
+     },
+     {
+      "Id": "2858230160",
+      "Name": "Play_ShotgunFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Weapons\\Play_ShotgunFire",
+      "GUID": "{63AF2829-D317-452F-A7C4-1F70EFDC2C59}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "2.9976146",
+      "DurationMax": "3.616698",
+      "MediaRefs": [
+       {
+        "Id": "26450518"
+       },
+       {
+        "Id": "227477585"
+       },
+       {
+        "Id": "397930027"
+       },
+       {
+        "Id": "590288490"
+       }
+      ]
+     },
+     {
+      "Id": "1681839547",
+      "Name": "Play_SniperFire",
+      "ObjectPath": "\\Events\\Default Work Unit\\SFX\\Weapons\\Play_SniperFire",
+      "GUID": "{7A3C9D56-B2A0-4287-B3C4-2ECCD4AD9A95}",
+      "Color": "12",
+      "DurationType": "OneShot",
+      "DurationMin": "1.4006771",
+      "DurationMax": "2.2335105",
+      "MediaRefs": [
+       {
+        "Id": "69065674"
+       },
+       {
+        "Id": "243982142"
+       },
+       {
+        "Id": "527111023"
+       },
+       {
+        "Id": "546838947"
        }
       ]
      },
@@ -591,6 +802,55 @@
       ]
      },
      {
+      "Id": "820282777",
+      "Name": "ResetMusicPlaylist",
+      "ObjectPath": "\\Events\\Default Work Unit\\Mx\\ResetMusicPlaylist",
+      "GUID": "{5C4DEAC4-D106-49AC-9F8A-BED3577FA685}",
+      "Color": "10",
+      "DurationType": "Infinite",
+      "SwitchContainers": [
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3604647259",
+         "GUID": "{7F676868-9013-4C43-A790-2DA8723ED7C9}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "779227348"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3863236874",
+         "GUID": "{5C0A8472-D014-47B8-92F3-D3F2B70B925E}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "89622345"
+         }
+        ]
+       },
+       {
+        "SwitchValue": {
+         "GroupType": "State",
+         "GroupId": "4091656514",
+         "Id": "3092587493",
+         "GUID": "{BCEF5573-237F-4341-A924-EE2633F86F69}"
+        },
+        "MediaRefs": [
+         {
+          "Id": "174259710"
+         }
+        ]
+       }
+      ]
+     },
+     {
       "Id": "953277036",
       "Name": "Resume",
       "ObjectPath": "\\Events\\Default Work Unit\\GameStates\\Resume",
@@ -657,6 +917,6 @@
     ]
    }
   ],
-  "FileHash": "{388741C9-B697-B613-B4AB-4D487B5101F1}"
+  "FileHash": "{0C56D8A3-27C3-B3F0-4C96-814FF5772765}"
  }
 }

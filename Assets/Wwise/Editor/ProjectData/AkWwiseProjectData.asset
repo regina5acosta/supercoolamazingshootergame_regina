@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 88b8a6a12a024b4eb2e4a1f843298983
     GuidInternal: 
-    m_lastTime: -8584147548619569531
+    m_lastTime: -8584145643728833800
     List:
     - name: BGs
       guid: b30ba9b009c69346b216d1d578586d9e
@@ -390,6 +390,26 @@ MonoBehaviour:
         ObjectType: 2
         guid: bfad220581067c4993afaa5780890eca
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\UI
+    - name: Weapons
+      guid: 269fb38ba3e3ea4ba437317a793b2f3c
+      id: 1467963052
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88b8a6a12a024b4eb2e4a1f843298983
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: SFX
+        ObjectType: 2
+        guid: 6177caffe61f7c468b8bd5a4020994be
+      - ElementName: Weapons
+        ObjectType: 2
+        guid: 269fb38ba3e3ea4ba437317a793b2f3c
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\SFX\Weapons
   BankWwu:
   - PhysicalPath: SoundBanks\Default Work Unit.wwu
     PathAndIcons:
@@ -499,25 +519,8 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584150082507491215
+    m_lastTime: -8584145671415285646
     List:
-    - name: Play_MUSIIIIC
-      guid: 9020f62611afa9408c8c866088e3351d
-      id: 3959713538
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 076ce8a30cfa5a44aaecd3e0005c7042
-      - ElementName: Play_MUSIIIIC
-        ObjectType: 3
-        guid: 9020f62611afa9408c8c866088e3351d
-      Path: Events\Default Work Unit\Play_MUSIIIIC
-      maxAttenuation: 0
-      maxDuration: 0
-      minDuration: 0
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
       id: 3534139762
@@ -605,7 +608,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\Mx
     guid: c1c78e9794472449804d57b3bd0eea8a
     GuidInternal: 
-    m_lastTime: -8584150085879478330
+    m_lastTime: -8584145665813257344
     List:
     - name: Play_MainMenuMusic
       guid: 615ec1a0b60d3b46bc09a8218613eb43
@@ -647,6 +650,46 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 0
       minDuration: 0
+    - name: Play_MUSIIIIC
+      guid: 9020f62611afa9408c8c866088e3351d
+      id: 3959713538
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: Mx
+        ObjectType: 12
+        guid: c1c78e9794472449804d57b3bd0eea8a
+      - ElementName: Play_MUSIIIIC
+        ObjectType: 3
+        guid: 9020f62611afa9408c8c866088e3351d
+      Path: Events\Default Work Unit\Mx\Play_MUSIIIIC
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
+    - name: ResetMusicPlaylist
+      guid: c4ea4d5c06d1ac499f8abed3577fa685
+      id: 820282777
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: Mx
+        ObjectType: 12
+        guid: c1c78e9794472449804d57b3bd0eea8a
+      - ElementName: ResetMusicPlaylist
+        ObjectType: 3
+        guid: c4ea4d5c06d1ac499f8abed3577fa685
+      Path: Events\Default Work Unit\Mx\ResetMusicPlaylist
+      maxAttenuation: 0
+      maxDuration: 0
+      minDuration: 0
     - name: Stop_MainMenuMusic
       guid: 89ea74810fc19b49beb3c0fe73e272cf
       id: 1307794083
@@ -681,7 +724,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\SFX
     guid: cbcd112837a7dd4dad004d0cc29c959c
     GuidInternal: 
-    m_lastTime: -8584147659027127163
+    m_lastTime: -8584145671260121875
     List:
     - name: Play_CollectiblePickup
       guid: 926e90649a1e954e8e979e3f0b101505
@@ -703,26 +746,6 @@ MonoBehaviour:
       maxAttenuation: 40
       maxDuration: 0.835875
       minDuration: 0.52054167
-    - name: Play_GrenadeExplosion
-      guid: 86b283c909e023428f5c03036f39efaf
-      id: 3020009473
-      PathAndIcons:
-      - ElementName: Events
-        ObjectType: 5
-        guid: 00000000000000000000000000000000
-      - ElementName: Default Work Unit
-        ObjectType: 12
-        guid: 076ce8a30cfa5a44aaecd3e0005c7042
-      - ElementName: SFX
-        ObjectType: 12
-        guid: cbcd112837a7dd4dad004d0cc29c959c
-      - ElementName: Play_GrenadeExplosion
-        ObjectType: 3
-        guid: 86b283c909e023428f5c03036f39efaf
-      Path: Events\Default Work Unit\SFX\Play_GrenadeExplosion
-      maxAttenuation: 40
-      maxDuration: 2.3777397
-      minDuration: 1.2487396
     - name: Play_TargetHit
       guid: 22557c2930a6db40aaa4340c654d0101
       id: 2179906728
@@ -797,7 +820,7 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit\UI
     guid: cc626c30601d49498499db0d1de4374b
     GuidInternal: 
-    m_lastTime: -8584151755967263144
+    m_lastTime: -8584145668745357721
     List:
     - name: Play_UIQuit
       guid: 9988a10daee23a48bc0540d31664e79f
@@ -839,6 +862,140 @@ MonoBehaviour:
       maxAttenuation: 0
       maxDuration: 1.2133334
       minDuration: 1.2133334
+  - PhysicalPath: Events\Weapons.wwu
+    PathAndIcons:
+    - ElementName: Events
+      ObjectType: 5
+      guid: 00000000000000000000000000000000
+    - ElementName: Default Work Unit
+      ObjectType: 12
+      guid: 076ce8a30cfa5a44aaecd3e0005c7042
+    - ElementName: SFX
+      ObjectType: 12
+      guid: cbcd112837a7dd4dad004d0cc29c959c
+    - ElementName: Weapons
+      ObjectType: 12
+      guid: dbf3e16c0674034c8c6aee39803f712b
+    ParentPath: Events\Default Work Unit\SFX\Weapons
+    guid: dbf3e16c0674034c8c6aee39803f712b
+    GuidInternal: 
+    m_lastTime: -8584145671260171953
+    List:
+    - name: Play_GrenadeExplosion
+      guid: 86b283c909e023428f5c03036f39efaf
+      id: 3020009473
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: SFX
+        ObjectType: 12
+        guid: cbcd112837a7dd4dad004d0cc29c959c
+      - ElementName: Weapons
+        ObjectType: 12
+        guid: dbf3e16c0674034c8c6aee39803f712b
+      - ElementName: Play_GrenadeExplosion
+        ObjectType: 3
+        guid: 86b283c909e023428f5c03036f39efaf
+      Path: Events\Default Work Unit\SFX\Weapons\Play_GrenadeExplosion
+      maxAttenuation: 35
+      maxDuration: 3.5422187
+      minDuration: 2.4474735
+    - name: Play_GrenadeFire
+      guid: b66241a851584a439b6e2855d77648f3
+      id: 2665718224
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: SFX
+        ObjectType: 12
+        guid: cbcd112837a7dd4dad004d0cc29c959c
+      - ElementName: Weapons
+        ObjectType: 12
+        guid: dbf3e16c0674034c8c6aee39803f712b
+      - ElementName: Play_GrenadeFire
+        ObjectType: 3
+        guid: b66241a851584a439b6e2855d77648f3
+      Path: Events\Default Work Unit\SFX\Weapons\Play_GrenadeFire
+      maxAttenuation: 0
+      maxDuration: 1.0644375
+      minDuration: 1.0111355
+    - name: Play_PaintballFire
+      guid: daa4d912e2817340aa1b6f17711cf4bb
+      id: 2638340285
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: SFX
+        ObjectType: 12
+        guid: cbcd112837a7dd4dad004d0cc29c959c
+      - ElementName: Weapons
+        ObjectType: 12
+        guid: dbf3e16c0674034c8c6aee39803f712b
+      - ElementName: Play_PaintballFire
+        ObjectType: 3
+        guid: daa4d912e2817340aa1b6f17711cf4bb
+      Path: Events\Default Work Unit\SFX\Weapons\Play_PaintballFire
+      maxAttenuation: 0
+      maxDuration: 1.7837917
+      minDuration: 1.6899166
+    - name: Play_ShotgunFire
+      guid: 2928af6317d32f45a7c41f70efdc2c59
+      id: 2858230160
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: SFX
+        ObjectType: 12
+        guid: cbcd112837a7dd4dad004d0cc29c959c
+      - ElementName: Weapons
+        ObjectType: 12
+        guid: dbf3e16c0674034c8c6aee39803f712b
+      - ElementName: Play_ShotgunFire
+        ObjectType: 3
+        guid: 2928af6317d32f45a7c41f70efdc2c59
+      Path: Events\Default Work Unit\SFX\Weapons\Play_ShotgunFire
+      maxAttenuation: 0
+      maxDuration: 3.616698
+      minDuration: 2.9976146
+    - name: Play_SniperFire
+      guid: 569d3c7aa0b28742b3c42eccd4ad9a95
+      id: 1681839547
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: SFX
+        ObjectType: 12
+        guid: cbcd112837a7dd4dad004d0cc29c959c
+      - ElementName: Weapons
+        ObjectType: 12
+        guid: dbf3e16c0674034c8c6aee39803f712b
+      - ElementName: Play_SniperFire
+        ObjectType: 3
+        guid: 569d3c7aa0b28742b3c42eccd4ad9a95
+      Path: Events\Default Work Unit\SFX\Weapons\Play_SniperFire
+      maxAttenuation: 0
+      maxDuration: 2.2335105
+      minDuration: 1.4006771
   RtpcWwu:
   - PhysicalPath: Game Parameters\Default Work Unit.wwu
     PathAndIcons:
@@ -1138,7 +1295,7 @@ MonoBehaviour:
     m_lastTime: -8584172866519051780
     List: []
   ExpandedFileSystemItemIds: 
-  ExpandedWaapiItemIds: 050000000600000007000000090000000a0000000c0000000d0000000e0000000f00000010000000120000001a0000001b00000035000000ac000000ad000000ae000000452d0000462d0000482d0000e1290100
+  ExpandedWaapiItemIds: 0500000006000000090000000a0000000d0000000e0000000f00000010000000120000001a0000001b00000035000000ac000000ad000000ae000000452d0000462d0000482d0000e1290100
   AutoSyncSelection: 0
   autoPopulateEnabled: 1
   currentDataSource: 0

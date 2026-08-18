@@ -790,25 +790,34 @@
 							</ChildrenList>
 						</RandomSequenceContainer>
 						<ActorMixer Name="Weapons" ID="{4195B19C-C0CE-4CD3-A1EA-00CC17BFF4EB}" ShortID="480267527">
+							<PropertyList>
+								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
 								</Reference>
 								<Reference Name="OutputBus">
-									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+									<ObjectRef Name="SFX" ID="{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
 								</Reference>
 							</ReferenceList>
 							<ChildrenList>
 								<RandomSequenceContainer Name="GrenadeExplosion" ID="{C3CA1AE6-6E6C-4884-9639-AA259F857969}" ShortID="351734512">
 									<PropertyList>
 										<Property Name="3DSpatialization" Type="int16" Value="2"/>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-7</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Attenuation">
 											<Custom>
 												<Attenuation Name="Attenuation (Custom)" ID="{298E5EAD-9F11-456D-9506-32700DA36932}" ShortID="366149057">
 													<PropertyList>
-														<Property Name="RadiusMax" Type="Real64" Value="40"/>
+														<Property Name="RadiusMax" Type="Real64" Value="35"/>
 													</PropertyList>
 													<CurveUsageInfoList>
 														<VolumeDryUsage>
@@ -824,7 +833,7 @@
 																			<Flags>5</Flags>
 																		</Point>
 																		<Point>
-																			<XPos>40</XPos>
+																			<XPos>35</XPos>
 																			<YPos>-200</YPos>
 																			<Flags>37</Flags>
 																		</Point>
@@ -898,7 +907,7 @@
 										</Reference>
 									</ReferenceList>
 									<ChildrenList>
-										<Sound Name="Explosion, Real, Cannon Blast, Airy SND117459" ID="{AC263AE9-21AC-495F-950A-07EF7C15DF0D}" ShortID="127589666">
+										<Sound Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 1" ID="{6768F43B-8894-401D-A10F-41561C4A45B8}" ShortID="580718628">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
@@ -908,19 +917,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Explosion, Real, Cannon Blast, Airy SND117459" ID="{300F4BAE-1372-4CCB-B31A-C94A04444C4C}">
+												<AudioFileSource Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 1" ID="{3599CE44-EA39-4CED-BFC1-A63BB6995296}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.144018854571216"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.746764431110007"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.149352886222001"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.68835207406634"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Explosion, Real, Cannon Blast, Airy SND117459.wav</AudioFile>
+													<AudioFile>Explosions, Designed, Flashbang, Stun Grenade SND117407 1.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="1029611607"/>
+														<MediaID ID="419624308"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Explosion, Real, Cannon Blast, Airy SND117459" ID="{300F4BAE-1372-4CCB-B31A-C94A04444C4C}" Platform="Linked"/>
+												<ActiveSource Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 1" ID="{3599CE44-EA39-4CED-BFC1-A63BB6995296}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Explosion, Real, Cannon Blast, Airy SND117459 1" ID="{CD08C26E-0308-4CFA-BCD5-CDC0553E49E3}" ShortID="1010435587">
+										<Sound Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 2" ID="{BD0F474C-DF59-4745-AAC4-FEBF2F9287EF}" ShortID="756253067">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
@@ -930,19 +946,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Explosion, Real, Cannon Blast, Airy SND117459 1" ID="{7D6CED4E-B127-46E4-9748-53122EC25017}">
+												<AudioFileSource Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 2" ID="{660D776E-716D-467E-95E7-E5DA1B3BC339}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.0958540425824292"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="0.728490723626462"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.281171858241792"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.7286452899264"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Explosion, Real, Cannon Blast, Airy SND117459 1.wav</AudioFile>
+													<AudioFile>Explosions, Designed, Flashbang, Stun Grenade SND117407 2.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="571191625"/>
+														<MediaID ID="443139364"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Explosion, Real, Cannon Blast, Airy SND117459 1" ID="{7D6CED4E-B127-46E4-9748-53122EC25017}" Platform="Linked"/>
+												<ActiveSource Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 2" ID="{660D776E-716D-467E-95E7-E5DA1B3BC339}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Explosion, Real, Cannon Blast, Airy SND117459 2" ID="{3B996162-9789-43B7-A204-C74D52CF71E4}" ShortID="461822536">
+										<Sound Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 3" ID="{7A84EB68-8469-4B97-8733-A8FE7A8A8E0B}" ShortID="576367354">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
@@ -952,19 +975,26 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Explosion, Real, Cannon Blast, Airy SND117459 2" ID="{43963DCF-E0F2-41A4-88E0-CCE823E7AFE2}">
+												<AudioFileSource Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 3" ID="{FD0ADBF5-50CE-42C3-A919-6842789CA4B6}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.105624469029421"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.208079864524"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.22445199668752"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.22154636516093"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Explosion, Real, Cannon Blast, Airy SND117459 2.wav</AudioFile>
+													<AudioFile>Explosions, Designed, Flashbang, Stun Grenade SND117407 3.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="804660770"/>
+														<MediaID ID="208325780"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Explosion, Real, Cannon Blast, Airy SND117459 2" ID="{43963DCF-E0F2-41A4-88E0-CCE823E7AFE2}" Platform="Linked"/>
+												<ActiveSource Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 3" ID="{FD0ADBF5-50CE-42C3-A919-6842789CA4B6}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="Explosion, Real, Cannon Blast, Airy SND117459 3" ID="{548A1331-7AA7-4CDF-8985-3C7DD4E315C5}" ShortID="353935230">
+										<Sound Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 4" ID="{9B4FB45B-A702-4270-9F6E-22256724A2B1}" ShortID="782700296">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
@@ -974,16 +1004,391 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<AudioFileSource Name="Explosion, Real, Cannon Blast, Airy SND117459 3" ID="{7C735CCC-CB03-4884-A12C-435D6B33344C}">
+												<AudioFileSource Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 4" ID="{50630CD7-A053-45C1-AF94-FBDFBD02CA47}">
+													<PropertyList>
+														<Property Name="FadeInDuration" Type="Real64" Value="0.1216792597247"/>
+														<Property Name="FadeOutDuration" Type="Real64" Value="1.42635132232842"/>
+														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+														<Property Name="TrimBegin" Type="Real64" Value="0.155479054092672"/>
+														<Property Name="TrimEnd" Type="Real64" Value="3.69769766153031"/>
+													</PropertyList>
 													<Language>SFX</Language>
-													<AudioFile>Explosion, Real, Cannon Blast, Airy SND117459 3.wav</AudioFile>
+													<AudioFile>Explosions, Designed, Flashbang, Stun Grenade SND117407 4.wav</AudioFile>
 													<MediaIDList>
-														<MediaID ID="136617770"/>
+														<MediaID ID="1027332036"/>
 													</MediaIDList>
 												</AudioFileSource>
 											</ChildrenList>
 											<ActiveSourceList>
-												<ActiveSource Name="Explosion, Real, Cannon Blast, Airy SND117459 3" ID="{7C735CCC-CB03-4884-A12C-435D6B33344C}" Platform="Linked"/>
+												<ActiveSource Name="Explosions, Designed, Flashbang, Stun Grenade SND117407 4" ID="{50630CD7-A053-45C1-AF94-FBDFBD02CA47}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="ShotgunFire" ID="{7171C35E-C1CB-4117-BC8B-AD6DC26464D9}" ShortID="204965911">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450" ID="{F60DECF5-EE81-4FC7-9540-93E0581E168E}" ShortID="859351255">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450" ID="{04B93D6E-7707-4862-BD91-BB4536E1C4FD}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="590288490"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450" ID="{04B93D6E-7707-4862-BD91-BB4536E1C4FD}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 1" ID="{5A52BCEB-6BE9-4224-967E-8B8F24D30351}" ShortID="321970222">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 1" ID="{2BF1071C-7150-4127-A447-56621A5A1E4D}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="397930027"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 1" ID="{2BF1071C-7150-4127-A447-56621A5A1E4D}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 2" ID="{E774BC5A-F5A2-4DCE-9549-32B148630B27}" ShortID="1066242026">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 2" ID="{56BB97E7-4835-4F7B-8876-2E5A85D541F4}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="227477585"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 2" ID="{56BB97E7-4835-4F7B-8876-2E5A85D541F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 3" ID="{3C777899-E160-4426-BF79-90155BFE2D72}" ShortID="355693229">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 3" ID="{9C4E8D70-D018-4031-819B-82E31400887C}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="26450518"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Shotgun, Benelli M4, Single Shots, Dry SND122450 3" ID="{9C4E8D70-D018-4031-819B-82E31400887C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="SniperFire" ID="{D4FD35AE-E872-41A3-BF15-4CC6B9010DF3}" ShortID="521672971">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Guns, Rifle, Sniper, Shot, No Tail SND117320" ID="{12CAAD72-FF7A-4BB2-A4FF-9BF7714D8A8D}" ShortID="188920851">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Rifle, Sniper, Shot, No Tail SND117320" ID="{38D35624-8C6B-4CD8-A5A7-64ABCA6A6A5C}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Rifle, Sniper, Shot, No Tail SND117320.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="243982142"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Rifle, Sniper, Shot, No Tail SND117320" ID="{38D35624-8C6B-4CD8-A5A7-64ABCA6A6A5C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 1" ID="{670B4AC6-03A4-424A-8E09-EC7F4C088600}" ShortID="159509474">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 1" ID="{AFA4C16C-C880-419B-9B36-4A36AA993952}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Rifle, Sniper, Shot, No Tail SND117320 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="69065674"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 1" ID="{AFA4C16C-C880-419B-9B36-4A36AA993952}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 2" ID="{C3CFA035-9B07-4314-8176-25C98AA2FCF9}" ShortID="558687755">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 2" ID="{0A28FA40-9D3B-4C44-8AB1-1C2D3A395426}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Rifle, Sniper, Shot, No Tail SND117320 2.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="546838947"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 2" ID="{0A28FA40-9D3B-4C44-8AB1-1C2D3A395426}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 3" ID="{99B45EA4-8665-43F9-8638-87941434E2AA}" ShortID="1071005621">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 3" ID="{6B262B89-38B0-4BDE-AA04-DFE409ADC705}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Rifle, Sniper, Shot, No Tail SND117320 3.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="527111023"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Rifle, Sniper, Shot, No Tail SND117320 3" ID="{6B262B89-38B0-4BDE-AA04-DFE409ADC705}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="PaintballFire" ID="{0D29FFBD-6D6E-40D2-A82B-3B9086DE74F0}" ShortID="768743191">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 6" ID="{DF31C603-41FF-4523-A8EB-0BFC2E35D39C}" ShortID="356394264">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 6" ID="{2E30E79B-60BD-4D95-A4CE-FEB32513E922}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 6.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="953626959"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 6" ID="{2E30E79B-60BD-4D95-A4CE-FEB32513E922}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 7" ID="{C88B9F93-BBF9-4A39-A24F-77B8ED3295A1}" ShortID="678968100">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 7" ID="{4B3EAEC7-3EEE-459B-9E56-D52D4A870448}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 7.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="668038639"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 7" ID="{4B3EAEC7-3EEE-459B-9E56-D52D4A870448}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 8" ID="{72044203-B09E-4F65-8F1A-480C5B0A2143}" ShortID="1068049231">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 8" ID="{9050EAB4-20B7-4D2A-8CBB-0D17AEB07C0C}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 8.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="517197499"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 8" ID="{9050EAB4-20B7-4D2A-8CBB-0D17AEB07C0C}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 9" ID="{CAAE6FF8-4813-4D3C-8F70-CF85A8B269E8}" ShortID="227112183">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 9" ID="{E0031C67-385A-48F5-894C-F569DA33F91B}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 9.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="855926355"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Antique, Revolver, Colt 1851, Navy, 20m SND57053 9" ID="{E0031C67-385A-48F5-894C-F569DA33F91B}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+									</ChildrenList>
+								</RandomSequenceContainer>
+								<RandomSequenceContainer Name="GrenadeFire" ID="{18DFF715-E89B-44D1-92DB-4AF9AAC3B1A1}" ShortID="393212251">
+									<PropertyList>
+										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<Sound Name="Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664" ID="{7668FA6C-AD83-4AE3-B5EA-63040A5047A9}" ShortID="745308883">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664" ID="{13EB96B3-976B-46B2-9153-67C7FEDAC8F4}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="544078317"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664" ID="{13EB96B3-976B-46B2-9153-67C7FEDAC8F4}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664 1" ID="{78A2D51A-67A1-488E-9413-357B5E9D582E}" ShortID="982689507">
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664 1" ID="{BA7E576A-C4B1-49ED-B12A-5A2873142390}">
+													<Language>SFX</Language>
+													<AudioFile>Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664 1.wav</AudioFile>
+													<MediaIDList>
+														<MediaID ID="986906654"/>
+													</MediaIDList>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="Guns, Artillery, Grenade Launcher, Designed, Shoot, Launch SND68664 1" ID="{BA7E576A-C4B1-49ED-B12A-5A2873142390}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>

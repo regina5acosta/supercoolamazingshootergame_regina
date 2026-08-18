@@ -29,17 +29,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_GrenadeExplosion" ID="{C983B286-E009-4223-8F5C-03036F39EFAF}">
-					<ChildrenList>
-						<Action Name="" ID="{81DB8216-58B1-4D19-9CAF-C1368BE15B44}" ShortID="397113069">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="GrenadeExplosion" ID="{C3CA1AE6-6E6C-4884-9639-AA259F857969}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Play_CollectiblePickup" ID="{64906E92-1E9A-4E95-8E97-9E3F0B101505}">
 					<ChildrenList>
 						<Action Name="" ID="{CC4916AD-C7DB-4DA0-86EA-6D56F8477F4C}" ShortID="16756571">
@@ -62,6 +51,7 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<WorkUnit Name="Weapons" ID="{6CE1F3DB-7406-4C03-8C6A-EE39803F712B}" PersistMode="Reference"/>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

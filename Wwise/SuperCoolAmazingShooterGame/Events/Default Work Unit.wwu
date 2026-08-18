@@ -19,17 +19,6 @@
 				<WorkUnit Name="UI" ID="{306C62CC-1D60-4949-8499-DB0D1DE4374B}" PersistMode="Reference"/>
 				<WorkUnit Name="GameStates" ID="{DD13FFBC-86B4-4BD8-BCE8-A68CCB04AA1D}" PersistMode="Reference"/>
 				<WorkUnit Name="BGs" ID="{BC2C24D1-8034-4BE2-8187-69E5DD029538}" PersistMode="Reference"/>
-				<Event Name="Play_MUSIIIIC" ID="{26F62090-AF11-40A9-8C8C-866088E3351D}">
-					<ChildrenList>
-						<Action Name="" ID="{4E9A1C1E-0A9B-4FAF-9C4E-7E9D49445777}" ShortID="737660222">
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="MUSIIIIC" ID="{AD391324-EEE8-4204-B8A3-2F6E6F0C1F2C}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

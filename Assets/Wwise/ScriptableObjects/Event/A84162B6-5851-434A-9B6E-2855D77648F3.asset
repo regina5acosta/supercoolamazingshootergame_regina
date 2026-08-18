@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ca4afe8606afc774baa4b661c88fb8b7, type: 3}
+  m_Name: A84162B6-5851-434A-9B6E-2855D77648F3
+  m_EditorClassIdentifier: 
+  objectName: Play_GrenadeFire
+  id: 2665718224
+  guid: A84162B6-5851-434A-9B6E-2855D77648F3
+  IsInUserDefinedSoundBank: 1

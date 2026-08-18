@@ -17,6 +17,16 @@
 						<Bus Name="SFX" ID="{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="12"/>
+								<Property Name="HdrEnable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrRatio" Type="Real64">
+									<ValueList>
+										<Value>70</Value>
+									</ValueList>
+								</Property>
 								<Property Name="OverrideColor" Type="bool" Value="True"/>
 							</PropertyList>
 							<ChildrenList>
@@ -26,6 +36,7 @@
 										<Property Name="OverrideColor" Type="bool" Value="True"/>
 									</PropertyList>
 								</Bus>
+								<Bus Name="Weapons" ID="{8BB39F26-E3A3-4BEA-A437-317A793B2F3C}"/>
 							</ChildrenList>
 						</Bus>
 						<Bus Name="Mx" ID="{0D8B2525-D997-4ABF-B7E1-838BBCDB940A}">

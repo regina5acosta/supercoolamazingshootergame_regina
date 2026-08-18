@@ -43,6 +43,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_MUSIIIIC" ID="{26F62090-AF11-40A9-8C8C-866088E3351D}">
+					<ChildrenList>
+						<Action Name="" ID="{4E9A1C1E-0A9B-4FAF-9C4E-7E9D49445777}" ShortID="737660222">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIIIIC" ID="{AD391324-EEE8-4204-B8A3-2F6E6F0C1F2C}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="ResetMusicPlaylist" ID="{5C4DEAC4-D106-49AC-9F8A-BED3577FA685}">
+					<ChildrenList>
+						<Action Name="" ID="{1CB1BD6A-A6B3-4350-B6C7-026225597E09}" ShortID="467954439">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="3"/>
+							</PropertyList>
+							<ReferenceList/>
+						</Action>
+						<Action Name="" ID="{D088358A-8277-4BD1-8D07-54CE5A474E3F}" ShortID="20822848">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="MUSIIIIC" ID="{AD391324-EEE8-4204-B8A3-2F6E6F0C1F2C}" WorkUnitID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
