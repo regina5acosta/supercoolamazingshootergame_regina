@@ -7,11 +7,10 @@ public class GameManager : MonoBehaviour
 
     [Header("Game Settings")]
     public float gameDuration = 60f;
-   [Range(0f, 100f)] public float playerSpeed = 50f;
-   [Range(0f, 2000f)] public float playerScore = 0f;
+    public float playerSpeed;
+    public float playerScore;
 
     [Header("Wwise Stuff")]
-    public AK.Wwise.RTPC rtpcPlayerSpeed;
     public AK.Wwise.RTPC rtpcScore;
 
 
@@ -38,7 +37,7 @@ public class GameManager : MonoBehaviour
         playerScore = Score;
         StartGame();
 
-        rtpcPlayerSpeed.SetValue(gameObject, playerSpeed);
+        
     }
 
     void Update()
@@ -70,7 +69,7 @@ public class GameManager : MonoBehaviour
         if (!IsGameActive) return;
         Score += points;
         OnScoreChanged?.Invoke(Score);
-        rtpcScore.SetValue(gameObject, 0.1f);
+        rtpcScore.SetGlobalValue(Score);
     }
 
     void EndGame()

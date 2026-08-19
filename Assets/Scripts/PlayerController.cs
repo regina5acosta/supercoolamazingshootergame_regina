@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.SocialPlatforms.Impl;
 
 [RequireComponent(typeof(CharacterController))]
 public class PlayerController : MonoBehaviour
@@ -22,6 +23,7 @@ public class PlayerController : MonoBehaviour
 
     [Header("WwiseEvents")]
     public AK.Wwise.Switch footstepSwitch;
+    public AK.Wwise.RTPC rtpcPlayerSpeed;
 
     void Start()
     {
@@ -54,10 +56,12 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.GetKey(KeyCode.LeftShift))
         {
+            rtpcPlayerSpeed.SetGlobalValue(1);
             _isRunning = true;
         }
         else
         {
+            rtpcPlayerSpeed.SetGlobalValue(0);
             _isRunning = false;
         }
         float speed = _isRunning ? runSpeed : moveSpeed;

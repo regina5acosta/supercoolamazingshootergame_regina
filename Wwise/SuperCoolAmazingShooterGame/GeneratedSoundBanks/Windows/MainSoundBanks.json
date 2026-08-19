@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{A2D3F171-B396-EF2A-0700-86AC3FC1F3E4}",
+    "Hash": "{FE39D804-1421-B0FB-6C8A-D8D6FC89AE55}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 3.wav",
-      "CachePath": "5B/{5B632E33-4EC1-CAC4-5A06-90FB933E43C5}.wem"
+      "CachePath": "7C/{7C95A14A-5FAA-C2CD-9BAA-A5BCA80C72B5}.wem"
      },
      {
       "Id": "227477585",
@@ -118,6 +118,14 @@
       "Location": "Memory",
       "ShortName": "Guns, Pistol, SIG Sauer P226, Single Shots, Dry SND122452.wav",
       "CachePath": "19/{196CF5AD-CE6C-AA16-9E42-79A645D7B65B}.wem"
+     },
+     {
+      "Id": "316084448",
+      "Language": "SFX",
+      "Streaming": "false",
+      "Location": "Memory",
+      "ShortName": "JaneRemover.wav",
+      "CachePath": "D6/{D6D038C0-39CE-DFC8-6BEF-EEF4F5C7D374}.wem"
      },
      {
       "Id": "387369319",
@@ -149,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 1.wav",
-      "CachePath": "41/{419DFF13-50BE-9DF3-44AC-BC8B673F06F5}.wem"
+      "CachePath": "C3/{C357B720-0060-5081-1198-E3555B53BF13}.wem"
      },
      {
       "Id": "422325863",
@@ -165,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 2.wav",
-      "CachePath": "06/{067C3DF9-E9E4-415A-C125-0B6E73A49B3E}.wem"
+      "CachePath": "6C/{6C1CF2E9-0813-4568-370D-98D277E078A9}.wem"
      },
      {
       "Id": "454248248",
@@ -405,7 +413,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 4.wav",
-      "CachePath": "54/{54F20AE2-53FA-C4F7-7816-53D8187417B3}.wem"
+      "CachePath": "08/{08B1EA01-7F7C-2775-8A12-A58199B04B1A}.wem"
      }
     ],
     "Events": [
@@ -504,6 +512,21 @@
        },
        {
         "Id": "986906654"
+       }
+      ]
+     },
+     {
+      "Id": "1330318228",
+      "Name": "Play_JaneRemover",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_JaneRemover",
+      "GUID": "{71FDC0F9-AD84-4AA2-BCC1-8BD709A88B79}",
+      "MaxAttenuation": "40",
+      "DurationType": "OneShot",
+      "DurationMin": "3.7129648",
+      "DurationMax": "3.7129648",
+      "MediaRefs": [
+       {
+        "Id": "316084448"
        }
       ]
      },
@@ -917,6 +940,6 @@
     ]
    }
   ],
-  "FileHash": "{0C56D8A3-27C3-B3F0-4C96-814FF5772765}"
+  "FileHash": "{6FB17613-0BD8-C452-2F79-884BF4E134F6}"
  }
 }

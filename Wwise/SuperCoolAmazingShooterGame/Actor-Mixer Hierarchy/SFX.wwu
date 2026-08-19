@@ -1395,6 +1395,47 @@
 								</RandomSequenceContainer>
 							</ChildrenList>
 						</ActorMixer>
+						<RandomSequenceContainer Name="JaneRemover" ID="{EE46AF70-9086-441B-9B5E-BE4C49870C22}" ShortID="894780978">
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="JaneRemover" ID="{6DDBCD63-5A93-4B5A-8BF8-586BF234F878}" ShortID="204995138">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="JaneRemover" ID="{57E442E0-306E-40E1-B121-5B52E9FB1ED1}">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.134901999785541"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.484478369717806"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="150.142950042188"/>
+												<Property Name="TrimEnd" Type="Real64" Value="153.855914724749"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>JaneRemover.wav</AudioFile>
+											<MediaIDList>
+												<MediaID ID="316084448"/>
+											</MediaIDList>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="JaneRemover" ID="{57E442E0-306E-40E1-B121-5B52E9FB1ED1}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</RandomSequenceContainer>
 					</ChildrenList>
 				</ActorMixer>
 			</ChildrenList>

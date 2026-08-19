@@ -19,6 +19,17 @@
 				<WorkUnit Name="UI" ID="{306C62CC-1D60-4949-8499-DB0D1DE4374B}" PersistMode="Reference"/>
 				<WorkUnit Name="GameStates" ID="{DD13FFBC-86B4-4BD8-BCE8-A68CCB04AA1D}" PersistMode="Reference"/>
 				<WorkUnit Name="BGs" ID="{BC2C24D1-8034-4BE2-8187-69E5DD029538}" PersistMode="Reference"/>
+				<Event Name="Play_JaneRemover" ID="{71FDC0F9-AD84-4AA2-BCC1-8BD709A88B79}">
+					<ChildrenList>
+						<Action Name="" ID="{84CB3AC6-3558-4DDA-BDB6-F81100C915C7}" ShortID="912721603">
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="JaneRemover" ID="{EE46AF70-9086-441B-9B5E-BE4C49870C22}" WorkUnitID="{C4459C7B-A698-47C0-87E4-B061CDACB151}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -8,16 +8,41 @@
 			</PropertyList>
 			<ChildrenList>
 				<ActorMixer Name="BGs" ID="{59397352-C58A-46EA-A588-5FEDC37EC058}" ShortID="953041060">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>2</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
 						</Reference>
 						<Reference Name="OutputBus">
-							<ObjectRef Name="BGs" ID="{B0A90BB3-C609-4693-B216-D1D578586D9E}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
+							<ObjectRef Name="HDR" ID="{1BA8E07B-0F34-4C19-B010-FC52D77743BC}" WorkUnitID="{A1A6B888-022A-4E4B-B2E4-A1F843298983}"/>
 						</Reference>
 					</ReferenceList>
 					<ChildrenList>
 						<BlendContainer Name="DayBed" ID="{CF9E6A4E-5006-4B0C-927B-501D78162A78}" ShortID="452793653">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
@@ -32,7 +57,7 @@
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-11</Value>
+												<Value>-1</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -68,6 +93,11 @@
 								<Sound Name="Ambience, Insect, Cicadas, Intense, Sunset SND123210" ID="{DD27510C-1E29-43B2-B66F-AAB56282D61E}" ShortID="341321204">
 									<PropertyList>
 										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>6</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">
@@ -144,6 +174,31 @@
 							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>
+					<StateInfo>
+						<StateGroupList>
+							<StateGroupInfo>
+								<StateGroupRef Name="GameState" ID="{2F654FB5-2222-4064-85E9-DCF3F8CBDD00}"/>
+							</StateGroupInfo>
+						</StateGroupList>
+						<CustomStateList>
+							<CustomState>
+								<StateRef Name="Pause" ID="{BCEF5573-237F-4341-A924-EE2633F86F69}"/>
+								<CustomState Name="" ID="{CFB571B0-CDE9-4754-8C9B-6D0828F0F7E1}" ShortID="89127011">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64" Value="-108"/>
+									</PropertyList>
+								</CustomState>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="Running" ID="{5C0A8472-D014-47B8-92F3-D3F2B70B925E}"/>
+								<CustomState Name="" ID="{C46C9B9F-2263-4070-8F51-CE5BF26FCA7D}" ShortID="93398487"/>
+							</CustomState>
+							<CustomState>
+								<StateRef Name="MainMenu" ID="{7F676868-9013-4C43-A790-2DA8723ED7C9}"/>
+								<CustomState Name="" ID="{1C2403F3-5347-4012-A885-5139149D034B}" ShortID="680675502"/>
+							</CustomState>
+						</CustomStateList>
+					</StateInfo>
 				</ActorMixer>
 			</ChildrenList>
 		</WorkUnit>

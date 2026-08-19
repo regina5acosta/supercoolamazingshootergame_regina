@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 88b8a6a12a024b4eb2e4a1f843298983
     GuidInternal: 
-    m_lastTime: -8584145643728833800
+    m_lastTime: -8584145009071961445
     List:
     - name: BGs
       guid: b30ba9b009c69346b216d1d578586d9e
@@ -322,6 +322,23 @@ MonoBehaviour:
         ObjectType: 2
         guid: b30ba9b009c69346b216d1d578586d9e
       Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\BGs
+    - name: HDR
+      guid: 7be0a81b340f194cb010fc52d77743bc
+      id: 931844945
+      PathAndIcons:
+      - ElementName: Master-Mixer Hierarchy
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 88b8a6a12a024b4eb2e4a1f843298983
+      - ElementName: Master Audio Bus
+        ObjectType: 2
+        guid: d8a41415a61d2a41a17e75ca0c2149f3
+      - ElementName: HDR
+        ObjectType: 2
+        guid: 7be0a81b340f194cb010fc52d77743bc
+      Path: Master-Mixer Hierarchy\Default Work Unit\Master Audio Bus\HDR
     - name: Master Audio Bus
       guid: d8a41415a61d2a41a17e75ca0c2149f3
       id: 3803692087
@@ -519,8 +536,25 @@ MonoBehaviour:
     ParentPath: Events\Default Work Unit
     guid: 076ce8a30cfa5a44aaecd3e0005c7042
     GuidInternal: 
-    m_lastTime: -8584145671415285646
+    m_lastTime: -8584144999512227508
     List:
+    - name: Play_JaneRemover
+      guid: f9c0fd7184ada24abcc18bd709a88b79
+      id: 1330318228
+      PathAndIcons:
+      - ElementName: Events
+        ObjectType: 5
+        guid: 00000000000000000000000000000000
+      - ElementName: Default Work Unit
+        ObjectType: 12
+        guid: 076ce8a30cfa5a44aaecd3e0005c7042
+      - ElementName: Play_JaneRemover
+        ObjectType: 3
+        guid: f9c0fd7184ada24abcc18bd709a88b79
+      Path: Events\Default Work Unit\Play_JaneRemover
+      maxAttenuation: 40
+      maxDuration: 3.7129648
+      minDuration: 3.7129648
     - name: Play_TestTone
       guid: 7361aa6f16ad9f4fade64ad3fab44c4a
       id: 3534139762
@@ -1008,7 +1042,7 @@ MonoBehaviour:
     ParentPath: Game Parameters\Default Work Unit
     guid: de6c8aa09286e94a914dfe3d739e221e
     GuidInternal: 
-    m_lastTime: -8584147573846601074
+    m_lastTime: -8584145010493993259
     List:
     - name: rtpc_speed
       guid: b9772ddfee26b2479b02a8ada69d1a00

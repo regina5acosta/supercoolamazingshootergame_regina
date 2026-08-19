@@ -17,11 +17,6 @@
 						<Bus Name="SFX" ID="{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}">
 							<PropertyList>
 								<Property Name="Color" Type="int16" Value="12"/>
-								<Property Name="HdrEnable" Type="bool">
-									<ValueList>
-										<Value>True</Value>
-									</ValueList>
-								</Property>
 								<Property Name="HdrRatio" Type="Real64">
 									<ValueList>
 										<Value>70</Value>
@@ -97,12 +92,47 @@
 																<PointList>
 																	<Point>
 																		<XPos>0</XPos>
-																		<YPos>-2.49163</YPos>
+																		<YPos>4.05242</YPos>
 																		<Flags>5</Flags>
 																	</Point>
 																	<Point>
-																		<XPos>100</XPos>
-																		<YPos>3.8831</YPos>
+																		<XPos>1</XPos>
+																		<YPos>-6.52845</YPos>
+																		<Flags>37</Flags>
+																	</Point>
+																</PointList>
+															</Curve>
+														</Custom>
+													</Reference>
+												</ReferenceList>
+											</RTPC>
+										</Local>
+									</Reference>
+									<Reference>
+										<Local>
+											<RTPC Name="" ID="{2E7DD665-9C62-4609-9D2E-91C5607151F6}" ShortID="1000497844">
+												<PropertyList>
+													<Property Name="PropertyName" Type="string" Value="Pitch"/>
+												</PropertyList>
+												<ReferenceList>
+													<Reference Name="ControlInput">
+														<ObjectRef Name="rtpc_speed" ID="{DF2D77B9-26EE-47B2-9B02-A8ADA69D1A00}" WorkUnitID="{A08A6CDE-8692-4AE9-914D-FE3D739E221E}"/>
+													</Reference>
+													<Reference Name="Curve">
+														<Custom>
+															<Curve Name="" ID="{9F3677C0-E091-4C0C-879F-2540594EE16A}">
+																<PropertyList>
+																	<Property Name="Flags" Type="int32" Value="65537"/>
+																</PropertyList>
+																<PointList>
+																	<Point>
+																		<XPos>0</XPos>
+																		<YPos>0</YPos>
+																		<Flags>5</Flags>
+																	</Point>
+																	<Point>
+																		<XPos>1</XPos>
+																		<YPos>2678</YPos>
 																		<Flags>37</Flags>
 																	</Point>
 																</PointList>
@@ -115,6 +145,27 @@
 									</Reference>
 								</ObjectList>
 							</ObjectLists>
+						</Bus>
+						<Bus Name="HDR" ID="{1BA8E07B-0F34-4C19-B010-FC52D77743BC}">
+							<PropertyList>
+								<Property Name="Color" Type="int16" Value="3"/>
+								<Property Name="HdrEnable" Type="bool">
+									<ValueList>
+										<Value>True</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrRatio" Type="Real64">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="HdrThreshold" Type="Real64">
+									<ValueList>
+										<Value>5</Value>
+									</ValueList>
+								</Property>
+								<Property Name="OverrideColor" Type="bool" Value="True"/>
+							</PropertyList>
 						</Bus>
 					</ChildrenList>
 				</Bus>

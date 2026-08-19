@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}",
     "Language": "SFX",
-    "Hash": "{00F11AAE-3639-D06A-A7D9-FC80E2E58A2C}",
+    "Hash": "{74B15FBC-2D55-C6AD-DBE2-E08CA0B194E8}",
     "ObjectPath": "Init",
     "ShortName": "Init",
     "Path": "Init.bnk",
@@ -56,6 +56,13 @@
       "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\BGs",
       "GUID": "{B0A90BB3-C609-4693-B216-D1D578586D9E}",
       "Color": "4"
+     },
+     {
+      "Id": "931844945",
+      "Name": "HDR",
+      "ObjectPath": "\\Master-Mixer Hierarchy\\Default Work Unit\\Master Audio Bus\\HDR",
+      "GUID": "{1BA8E07B-0F34-4C19-B010-FC52D77743BC}",
+      "Color": "3"
      },
      {
       "Id": "1467963052",
@@ -667,6 +674,6 @@
     ]
    }
   ],
-  "FileHash": "{37A35A33-0563-F8D0-CDB7-53FD009188F6}"
+  "FileHash": "{21B6814D-6AE0-EF3B-C13D-8C7468E6A802}"
  }
 }

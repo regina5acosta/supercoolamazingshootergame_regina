@@ -4,6 +4,19 @@
 		<WorkUnit Name="Default Work Unit" ID="{1B4D6A10-BDD5-4446-85B5-B3725B7B6096}" PersistMode="Standalone">
 			<ChildrenList>
 				<MusicSwitchContainer Name="MUSIIIIC" ID="{AD391324-EEE8-4204-B8A3-2F6E6F0C1F2C}" ShortID="227342190">
+					<PropertyList>
+						<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+						<Property Name="MaxSoundPerInstance" Type="int16">
+							<ValueList>
+								<Value>1</Value>
+							</ValueList>
+						</Property>
+						<Property Name="UseMaxSoundPerInstance" Type="bool">
+							<ValueList>
+								<Value>True</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
 							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{8D643534-7CCF-4C64-8631-41929FE5423A}"/>
