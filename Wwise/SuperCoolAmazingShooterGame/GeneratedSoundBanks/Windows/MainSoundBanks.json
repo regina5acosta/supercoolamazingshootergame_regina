@@ -10,7 +10,7 @@
     "Type": "User",
     "GUID": "{892E857B-03D4-4469-89D3-FFEE1359FE76}",
     "Language": "SFX",
-    "Hash": "{FE39D804-1421-B0FB-6C8A-D8D6FC89AE55}",
+    "Hash": "{E5685974-F2C9-C1B5-49C2-A5967DD6C9C2}",
     "ObjectPath": "\\SoundBanks\\Main\\MainSoundBanks",
     "ShortName": "MainSoundBanks",
     "Path": "MainSoundBanks.bnk",
@@ -93,7 +93,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 3.wav",
-      "CachePath": "7C/{7C95A14A-5FAA-C2CD-9BAA-A5BCA80C72B5}.wem"
+      "CachePath": "B9/{B9257C37-3213-5225-327D-501D55821452}.wem"
      },
      {
       "Id": "227477585",
@@ -157,7 +157,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 1.wav",
-      "CachePath": "C3/{C357B720-0060-5081-1198-E3555B53BF13}.wem"
+      "CachePath": "3E/{3E2CCB55-0702-2E6D-C0A8-95BAE1F9C78E}.wem"
      },
      {
       "Id": "422325863",
@@ -173,7 +173,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 2.wav",
-      "CachePath": "6C/{6C1CF2E9-0813-4568-370D-98D277E078A9}.wem"
+      "CachePath": "A0/{A02BB742-BB1E-BBD9-FFC9-1F54B7EA2250}.wem"
      },
      {
       "Id": "454248248",
@@ -413,7 +413,7 @@
       "Streaming": "false",
       "Location": "Memory",
       "ShortName": "Explosions, Designed, Flashbang, Stun Grenade SND117407 4.wav",
-      "CachePath": "08/{08B1EA01-7F7C-2775-8A12-A58199B04B1A}.wem"
+      "CachePath": "72/{72342AB7-DF3E-D618-8FC7-B28430872BD9}.wem"
      }
     ],
     "Events": [
@@ -480,8 +480,8 @@
       "Color": "12",
       "MaxAttenuation": "35",
       "DurationType": "OneShot",
-      "DurationMin": "2.4474735",
-      "DurationMax": "3.5422187",
+      "DurationMin": "1.7892756",
+      "DurationMax": "2.514705",
       "MediaRefs": [
        {
         "Id": "208325780"
@@ -940,6 +940,6 @@
     ]
    }
   ],
-  "FileHash": "{6FB17613-0BD8-C452-2F79-884BF4E134F6}"
+  "FileHash": "{E9877568-7835-E6E7-5838-7DA7E4EC2DFD}"
  }
 }

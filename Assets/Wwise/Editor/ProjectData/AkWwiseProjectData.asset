@@ -303,7 +303,7 @@ MonoBehaviour:
     ParentPath: Master-Mixer Hierarchy\Default Work Unit
     guid: 88b8a6a12a024b4eb2e4a1f843298983
     GuidInternal: 
-    m_lastTime: -8584145009071961445
+    m_lastTime: -8584144951499253474
     List:
     - name: BGs
       guid: b30ba9b009c69346b216d1d578586d9e
@@ -936,8 +936,8 @@ MonoBehaviour:
         guid: 86b283c909e023428f5c03036f39efaf
       Path: Events\Default Work Unit\SFX\Weapons\Play_GrenadeExplosion
       maxAttenuation: 35
-      maxDuration: 3.5422187
-      minDuration: 2.4474735
+      maxDuration: 2.514705
+      minDuration: 1.7892756
     - name: Play_GrenadeFire
       guid: b66241a851584a439b6e2855d77648f3
       id: 2665718224

@@ -111,7 +111,7 @@
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-6</Value>
+										<Value>-11</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -792,6 +792,11 @@
 						<ActorMixer Name="Weapons" ID="{4195B19C-C0CE-4CD3-A1EA-00CC17BFF4EB}" ShortID="480267527">
 							<PropertyList>
 								<Property Name="OverrideOutput" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-4</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -808,7 +813,7 @@
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
-												<Value>-7</Value>
+												<Value>-9</Value>
 											</ValueList>
 										</Property>
 									</PropertyList>
@@ -923,7 +928,7 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.746764431110007"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.149352886222001"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.68835207406634"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.03760021267048"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Explosions, Designed, Flashbang, Stun Grenade SND117407 1.wav</AudioFile>
@@ -952,7 +957,7 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="0.728490723626462"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.281171858241792"/>
-														<Property Name="TrimEnd" Type="Real64" Value="2.7286452899264"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.07044753086038"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Explosions, Designed, Flashbang, Stun Grenade SND117407 2.wav</AudioFile>
@@ -981,7 +986,7 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="1.208079864524"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.22445199668752"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.22154636516093"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.36994908361122"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Explosions, Designed, Flashbang, Stun Grenade SND117407 3.wav</AudioFile>
@@ -1010,7 +1015,7 @@
 														<Property Name="FadeOutDuration" Type="Real64" Value="1.42635132232842"/>
 														<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
 														<Property Name="TrimBegin" Type="Real64" Value="0.155479054092672"/>
-														<Property Name="TrimEnd" Type="Real64" Value="3.69769766153031"/>
+														<Property Name="TrimEnd" Type="Real64" Value="2.67018391274396"/>
 													</PropertyList>
 													<Language>SFX</Language>
 													<AudioFile>Explosions, Designed, Flashbang, Stun Grenade SND117407 4.wav</AudioFile>
@@ -1028,6 +1033,11 @@
 								<RandomSequenceContainer Name="ShotgunFire" ID="{7171C35E-C1CB-4117-BC8B-AD6DC26464D9}" ShortID="204965911">
 									<PropertyList>
 										<Property Name="OverridePositioning" Type="bool" Value="True"/>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Conversion">

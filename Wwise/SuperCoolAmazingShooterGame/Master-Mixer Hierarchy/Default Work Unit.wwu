@@ -16,6 +16,11 @@
 					<ChildrenList>
 						<Bus Name="SFX" ID="{FFCA7761-1FE6-467C-8B8B-D5A4020994BE}">
 							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Color" Type="int16" Value="12"/>
 								<Property Name="HdrRatio" Type="Real64">
 									<ValueList>
@@ -35,6 +40,13 @@
 							</ChildrenList>
 						</Bus>
 						<Bus Name="Mx" ID="{0D8B2525-D997-4ABF-B7E1-838BBCDB940A}">
+							<PropertyList>
+								<Property Name="BusVolume" Type="Real64">
+									<ValueList>
+										<Value>2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<StateInfo>
 								<StateGroupList>
 									<StateGroupInfo>
@@ -65,7 +77,7 @@
 							<PropertyList>
 								<Property Name="BusVolume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-7</Value>
 									</ValueList>
 								</Property>
 								<Property Name="Color" Type="int16" Value="4"/>
